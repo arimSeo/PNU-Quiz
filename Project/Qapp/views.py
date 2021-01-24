@@ -3,11 +3,11 @@ from .models import Question
 from django.core.paginator import Paginator
 
 lst = []
-answers = Question.objects.all()
-anslist = []
+# answers = Question.objects.all()
+# anslist = []
 
-for i in answers:
-    anslist.append(i.answer)
+# for i in answers:
+#     anslist.append(i.answer)
 
 def home(request):
     lst.clear()
@@ -29,6 +29,11 @@ def quiz(request):
     return render(request, 'quiz.html', {'obj' : obj, 'questions' : questions, 'count':count, 'lst':lst})
 
 def result(request):
+    answers = Question.objects.all()
+    anslist = []
+    for i in answers:
+        anslist.append(i.answer)
+        
     score = 0
     if len(lst)==len(anslist):
         for i in range(len(lst)):
