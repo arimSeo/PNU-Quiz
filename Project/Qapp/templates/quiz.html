@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}quiz{% endblock %}
+{% block extrahead %}
+    {{ block.super }}
+    <script src="{% static 'script.js' %}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/quiz.css' %}">
+{% endblock %}
+
+{% block content %}
+    {{block.super}}
+    <div class="all_page">
+        {{questions.number}}
+    </div>
+<hr class="line">
+<!-- Qustions -->
+<div class="main_content">
+{% for i in questions %}
+    {% if i.img1 %}
+    <div class="question_in_img">Q : {{i.question}}</div>
+    
+    <img src="{{i.img1.url}}" id="question_img">
+    <form class="question_form">
+        <div class="radio-group">
+            <label class="labl-img" for="option1">
+                <input type="radio" name = "name" id='option1' value="{{i.option1}}">
+                <div class="options" >{{i.option1}}</div>
+            </label>
+        <br>
+            <label class="labl-img">
+                <input type="radio" name = "name" id='option2' value="{{i.option2}}">
+                <div class="options" >{{i.option2}}</div>
+            </label> 
+        <br>
+            <label class="labl-img">
+                <input type="radio" name = "name" id='option3' value="{{i.option3}}">
+                <div class="options">{{i.option3}}</div>
+            </label>
+        <br>
+            <label class="labl-img">
+                <input type="radio" name = "name" id='option4' value="{{i.option4}}">
+                <div class="options" >{{i.option4}}</div>
+            </label>
+        </div>
+    </form>
+    {% else %}
+    <div class="question">Q : {{i.question}}</div>
+    <form class="question_form">
+        <div class="radio-group">    
+            <label class="labl">
+                <input type="radio" name = "name" id='option1' value="{{i.option1}}">
+                <div class="options">{{i.option1}}</div>
+            </label>    
+        <br>   
+            <label class="labl">
+                <input type="radio" name = "name" id='option2' value="{{i.option2}}">
+                <div class="options">{{i.option2}}</div>
+            </label>       
+        <br>   
+            <label class="labl">
+                <input type="radio" name = "name" id='option3' value="{{i.option3}}">
+                <div class="options">{{i.option3}}</div>
+            </label>
+        <br>       
+            <label class="labl">
+                <input type="radio" name = "name" id='option4' value="{{i.option4}}">
+                <div class="options">{{i.option4}}</div>
+            </label>   
+        <br>
+        </div>
+    </form>
+    {% endif %}
+{% endfor %}        
+</div>
+
+<div class="paginator">
+    {% if questions.has_next %}
+        <a href="?page={{ questions.next_page_number }}" id="save_ans"><button id="next_btn">다음</button></a>
+    {% else %}
+        <a href="/result/" id="save_ans"><button id="submit_btn">답안지 제출</button></a>
+    {% endif %}
+</div>
+{% endblock %}

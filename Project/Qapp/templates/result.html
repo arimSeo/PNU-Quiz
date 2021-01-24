@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}result{% endblock %}
+{% block extrahead %}
+{{ block.super }}
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="{% static 'result.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/result.css' %}">
+{% endblock %}
+
+{% block content %}
+{{block.super}}
+<hr class="line">
+<div class="loading">
+    <img src="{% static 'image/loading.gif' %}" alt="loading" class="loading_img">
+    <div class="loading_content">성적 산출 기간입니다...</div>
+</div>
+
+
+<div class="result_content">
+    {% if score < 2 %}
+    <div class="results">
+    <div class="title">📜 자네... 우리학교가 어디에 있는지는 아시는가..??</div>
+    <img src="{% static 'image/F.png' %}" class="grade_img"><br>
+        <div class="score">총점: {{score}} 점</div>
+    </div> 
+        <div class="comment">
+            교수님이 출석부르시다가 억장와르르 무너지는 소리가 금정산까지 울려퍼지네요..ㅠ<br>
+            하지만 너무 자책하지 말아요~ 본인 마음 한 구석에 재수와 반수라는 새로운 배움의 장의 기회를 노리고 있을지도 모르잖아요??
+            .... 부디.. 좋은곳으로 가길...(아디오스-☆)<br>
+        </div>
+        <img src="{% static 'image/에프.png' %}" class="fun_img"><br>
+        <!-- <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재도전</button></a></div> -->
+
+    <!--  -->
+    {% elif score < 5 %}
+    <div class="results">
+    <div class="title">📜 자 이제 시작이야~ </div><br>
+    <img src="{% static 'image/C+.png' %}" class="grade_img"><br>
+        <div class="score">총점: {{score}}점</div>
+    </div> 
+        <div class="comment">
+            : 흠흠... 이제 부산대학교에 갓 입학한,, 갓김치 처럼 파룻파룻한 새내기시군요~!🙌<br>
+            부산대학교 입학을 축하드리고, 절대 지금 이 학점을 받았다고 슬퍼하지는 말아요~<br>
+            더 낮은 학점이 기다리고 있을지도 모르니까요~~??? (찡긋^_<)<br>
+        </div>
+        <img src="{% static 'image/재수강.jpg' %}" class="fun_img"><br>
+        <!-- <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재도전</button></a></div> -->
+
+    {% elif score < 8 %}
+    <div class="results">
+        <div class="title">📜 학교 쫌 다녀봐따 이말이야 </div><br>
+        <img src="{% static 'image/b+.png' %}" class="grade_img"><br>
+        <div class="score">총점: {{score}}점</div>
+    </div>
+        <div class="comment">
+            : (조심스럽게) 혹싀,,,,,,, 20학번인가 자네,,,,??
+            잠만 눈물 좀 닦고..
+            이 학교가 올해따라 내꺼인듯 내꺼아닌 니꺼같은 첫 1년을 마치고
+            헌내기가 된 20학번 친구들이라면 본 개발자는 여러분들이 이정도도 아주 훌륭하게 잘 맞추었다고 생각한다!
+            얼른 이 시국에서 벗어나 모두가 건강한 학교 생활을 할 수 있길... 
+        </div>
+        <img src="{% static 'image/비쁠.png' %}" class="fun_img"><br>
+        <!-- <div class="btn1"><a href="{% url 'home' %}"><button id="re_btn">재도전</button></a></div> -->
+
+        <!--  -->
+
+        {% else %}
+    <div class="results">
+        <div class="title">📜부산대에대한 애교심이 넘쳐흐르는 당신!!! </div><br>
+        <img src="{% static 'image/A+.png' %}" class="grade_img"><br>
+        <div class="score">총점: {{score}}점</div>
+    </div>
+        <div class="comment">
+            Type. <br>
+            -새내기라면 사전조사가 아주 철저한 것이.... <br>
+            팀플할때 꼭 자료조사 역할을 맡으면 본인의 역량을 200% 발휘할 수 있겠네요~<br>
+            -고학년이라면 학교생활을 정말 열심히 하셨군요!😉<br>
+            분명 교수님께도 관심과 사랑을 듬뿍 받아 수업에서도 A+을 쉽게 받을 수 있을거에요.<br>
+            하지만 과도한 관심으로 어느새 대학원생까지 된 본인의 모습을 발견할지도 모른다는,,,,,,, (총총)<br>
+        </div>
+        <img src="{% static 'image/에이플.png' %}" class="fun_img"><br>
+        <!-- <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재도전</button></a></div> -->
+
+        {% endif %}
+    <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재도전</button></a></div>
+
+</div>
+
+{% endblock %}

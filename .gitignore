@@ -1,0 +1,6 @@
+__pycache__
+media/
+venv/
+migrations
+secrets.json
+db.sqlite3

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>{% block title %}Base{% endblock %}</title>
+    {% block extrahead %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet"> 
+    {% endblock %}
+</head>
+{% block content %}
+
+    <div class="test_num">
+        제 1회
+    </div>
+    <div class="small_title">
+        2021학년도 부산대에서 살아남기
+    </div>
+    <div class="big_title">
+        부산대학교 탐구영역
+    </div>
+
+{% endblock %}
+</html>

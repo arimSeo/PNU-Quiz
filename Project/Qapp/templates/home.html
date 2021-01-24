@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}home{% endblock %}
+{% block extrahead %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% endblock %}
+
+{% block content %}
+    <div class="test_num">
+        제 1회
+    </div>
+    <div class="small_title">
+        2021학년도 부산대에서 살아남기
+    </div>
+    <div class="big_title">
+        부산대학교 탐구영역
+    </div>
+    <div class="content">
+        <div class="discription1">📢 2021 신입생 여러분들 환영합니다!</div>
+        <div class="start_btn">
+        {% comment %} input으로 고치고 class넣기 {% endcomment %}
+        {% comment %} <input type='button' value='시작시작 스타투' class="btn" onclick="{% url 'quiz' %}"> {% endcomment %}
+            {% comment %} <a href="/quiz/"><input type='button' value='시작시작 스타투' class="btn" onclick="/quiz/"></a> {% endcomment %}
+            <a href="/quiz/"><button class="btn">올해 나의 학점은? ✏️✏️  </button></a>
+        </div>
+        <div class="discription2">▷ 문항에 따라 배점이 같습니다.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="discription2">▷ 컨닝하면 F학점 받을지도 몰라요.</div>
+    </div>
+
+    <div class="warn">※ 시험이 시작되면 구글링을 하지 마시오.</div>
+    <div class="made_in">멋쟁이 개발교육청</div>
+{% endblock %}
