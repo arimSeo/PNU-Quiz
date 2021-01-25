@@ -8,5 +8,8 @@
 
 {% block content %}
 {{block.super}}
-error
+<div>
+    <div id="discription">시험지가 잘못 배부되었군요!</div>
+    <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재응시</button></a></div>
+</div>
 {% endblock %}
