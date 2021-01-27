@@ -838,3 +838,729 @@ Not Found: /favicon.ico
 [pid: 6884|app: 0|req: 21/21] 223.38.78.22 () {42 vars in 757 bytes} [Wed Jan 27 06:09:01 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
 Not Found: /favicon.ico
 [pid: 6884|app: 0|req: 22/22] 223.38.78.22 () {42 vars in 713 bytes} [Wed Jan 27 06:09:01 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 23/23] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:18:16 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 24/24] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:18:17 2021] GET /favicon.ico => generated 2764 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 25/25] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:18:24 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 26/26] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:18:25 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jan 27 06:18:27 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55afe99e0750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55afe99e0750 pid: 6939 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6939)
+spawned uWSGI worker 1 (pid: 6941, cores: 1)
+[pid: 6941|app: 0|req: 1/1] 223.38.78.22 () {40 vars in 735 bytes} [Wed Jan 27 06:18:36 2021] GET / => generated 1438 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 6941|app: 0|req: 2/2] 223.38.78.22 () {42 vars in 766 bytes} [Wed Jan 27 06:18:40 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6941|app: 0|req: 3/3] 223.38.78.22 () {42 vars in 766 bytes} [Wed Jan 27 06:18:42 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6941|app: 0|req: 4/4] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:18:50 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6941|app: 0|req: 5/5] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:18:51 2021] GET /favicon.ico => generated 2764 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6941|app: 0|req: 6/6] 223.38.78.22 () {40 vars in 735 bytes} [Wed Jan 27 06:18:56 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6941|app: 0|req: 7/7] 223.38.78.22 () {40 vars in 729 bytes} [Wed Jan 27 06:18:56 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6941|app: 0|req: 8/8] 223.38.78.22 () {40 vars in 667 bytes} [Wed Jan 27 06:18:57 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jan 27 06:21:03 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558d9be9f750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558d9be9f750 pid: 6964 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6964)
+spawned uWSGI worker 1 (pid: 6966, cores: 1)
+[pid: 6966|app: 0|req: 1/1] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:21:26 2021] GET / => generated 1438 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 2/2] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:21:28 2021] GET /favicon.ico => generated 2764 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 3/3] 223.38.78.22 () {40 vars in 735 bytes} [Wed Jan 27 06:21:29 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 4/4] 223.38.78.22 () {42 vars in 766 bytes} [Wed Jan 27 06:21:33 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 5/5] 223.38.78.22 () {42 vars in 818 bytes} [Wed Jan 27 06:22:04 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+./Qapp/views.py:19: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'Qapp.models.Question'> QuerySet.
+  paginator = Paginator(obj,1)
+[pid: 6966|app: 0|req: 6/6] 223.38.78.22 () {44 vars in 864 bytes} [Wed Jan 27 06:22:06 2021] GET /quiz/ => generated 1115 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 7/7] 223.38.78.22 () {44 vars in 873 bytes} [Wed Jan 27 06:22:50 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 8/8] 223.38.78.22 () {42 vars in 766 bytes} [Wed Jan 27 06:23:20 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 9/9] 223.38.78.22 () {42 vars in 766 bytes} [Wed Jan 27 06:23:53 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 10/10] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:24:09 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 11/11] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:24:10 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 12/12] 223.38.78.22 () {42 vars in 757 bytes} [Wed Jan 27 06:24:17 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 6966|app: 0|req: 13/13] 223.38.78.22 () {44 vars in 788 bytes} [Wed Jan 27 06:24:24 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 14/14] 223.38.78.22 () {42 vars in 744 bytes} [Wed Jan 27 06:24:35 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 15/15] 223.38.78.22 () {42 vars in 696 bytes} [Wed Jan 27 06:24:36 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 16/16] 223.38.78.22 () {44 vars in 775 bytes} [Wed Jan 27 06:24:46 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 17/17] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:24:53 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 18/18] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:24:55 2021] GET /favicon.ico => generated 2764 bytes in 6 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 19/19] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:24:58 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 20/20] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:24:59 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 21/21] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:25:03 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 22/22] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:25:03 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (2 switches on core 0)
+[pid: 6966|app: 0|req: 23/23] 223.38.78.22 () {44 vars in 790 bytes} [Wed Jan 27 06:25:06 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 6966|app: 0|req: 24/24] 223.38.78.22 () {44 vars in 866 bytes} [Wed Jan 27 06:25:09 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 6966|app: 0|req: 25/25] 223.38.78.22 () {42 vars in 757 bytes} [Wed Jan 27 06:25:39 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 26/26] 223.38.78.22 () {44 vars in 788 bytes} [Wed Jan 27 06:25:49 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 27/27] 210.220.95.7 () {46 vars in 640 bytes} [Wed Jan 27 06:26:34 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 28/28] 106.101.192.204 () {42 vars in 822 bytes} [Wed Jan 27 06:26:45 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 29/29] 106.101.192.204 () {42 vars in 774 bytes} [Wed Jan 27 06:26:46 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 30/30] 106.101.192.204 () {44 vars in 868 bytes} [Wed Jan 27 06:26:53 2021] GET /quiz/ => generated 1115 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 31/31] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:26:54 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 32/32] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:26:55 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 33/33] 106.101.192.204 () {44 vars in 868 bytes} [Wed Jan 27 06:26:56 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 34/34] 223.38.78.22 () {40 vars in 735 bytes} [Wed Jan 27 06:26:57 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 35/35] 106.101.192.204 () {44 vars in 868 bytes} [Wed Jan 27 06:27:18 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 36/36] 106.101.192.204 () {42 vars in 750 bytes} [Wed Jan 27 06:27:19 2021] GET /save_ans?ans=undefined => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 37/37] 106.101.192.204 () {44 vars in 877 bytes} [Wed Jan 27 06:27:19 2021] GET /result/ => generated 2014 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:27:19 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=undefined (ip 106.101.192.204) !!!
+Wed Jan 27 06:27:19 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=undefined (106.101.192.204)
+OSError: write error
+[pid: 6966|app: 0|req: 38/38] 106.101.192.204 () {42 vars in 752 bytes} [Wed Jan 27 06:27:19 2021] GET /save_ans/?ans=undefined => generated 0 bytes in 36 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 6966|app: 0|req: 39/39] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:27:27 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 6966|app: 0|req: 40/40] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:27:41 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 41/41] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:27:41 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 42/42] 106.101.192.52 () {42 vars in 821 bytes} [Wed Jan 27 06:28:24 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 43/43] 106.101.192.52 () {42 vars in 773 bytes} [Wed Jan 27 06:28:25 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 44/44] 106.101.192.52 () {44 vars in 867 bytes} [Wed Jan 27 06:28:30 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 45/45] 223.38.78.22 () {42 vars in 854 bytes} [Wed Jan 27 06:31:07 2021] GET /admin/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 9 headers in 331 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 46/46] 223.38.78.22 () {42 vars in 891 bytes} [Wed Jan 27 06:31:07 2021] GET /admin/login/?next=/admin/ => generated 2194 bytes in 37 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 47/47] 106.101.192.122 () {42 vars in 822 bytes} [Wed Jan 27 06:31:46 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 48/48] 106.101.192.122 () {42 vars in 774 bytes} [Wed Jan 27 06:31:47 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 49/49] 223.38.78.22 () {52 vars in 1110 bytes} [Wed Jan 27 06:31:50 2021] POST /admin/login/?next=/admin/ => generated 2353 bytes in 163 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 50/50] 106.101.192.122 () {42 vars in 751 bytes} [Wed Jan 27 06:32:01 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 51/51] 106.101.192.122 () {42 vars in 707 bytes} [Wed Jan 27 06:32:03 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 52/52] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:32:05 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 53/53] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:32:06 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 54/54] 106.101.192.122 () {40 vars in 727 bytes} [Wed Jan 27 06:32:17 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 55/55] 106.101.192.122 () {40 vars in 679 bytes} [Wed Jan 27 06:32:17 2021] GET /favicon.ico => generated 2764 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 56/56] 223.38.78.22 () {40 vars in 735 bytes} [Wed Jan 27 06:32:23 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 57/57] 223.38.78.22 () {52 vars in 1110 bytes} [Wed Jan 27 06:32:37 2021] POST /admin/login/?next=/admin/ => generated 0 bytes in 167 msecs (HTTP/1.1 302) 11 headers in 625 bytes (2 switches on core 0)
+[pid: 6966|app: 0|req: 58/58] 223.38.78.22 () {46 vars in 966 bytes} [Wed Jan 27 06:32:37 2021] GET /admin/ => generated 3949 bytes in 30 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 59/59] 223.38.78.22 () {44 vars in 944 bytes} [Wed Jan 27 06:32:43 2021] GET /admin/Qapp/question/ => generated 4922 bytes in 43 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 60/60] 223.38.78.22 () {42 vars in 777 bytes} [Wed Jan 27 06:32:44 2021] GET /admin/jsi18n/ => generated 3187 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 61/61] 223.38.78.22 () {44 vars in 966 bytes} [Wed Jan 27 06:32:47 2021] GET /admin/Qapp/question/add/ => generated 8504 bytes in 64 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 62/62] 223.38.78.22 () {42 vars in 781 bytes} [Wed Jan 27 06:32:47 2021] GET /admin/jsi18n/ => generated 3187 bytes in 6 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 63/63] 223.38.78.22 () {52 vars in 1226 bytes} [Wed Jan 27 06:38:35 2021] POST /admin/Qapp/question/add/ => generated 0 bytes in 104 msecs (HTTP/1.1 302) 10 headers in 777 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 64/64] 223.38.78.22 () {46 vars in 1399 bytes} [Wed Jan 27 06:38:35 2021] GET /admin/Qapp/question/ => generated 6444 bytes in 41 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 65/65] 223.38.78.22 () {42 vars in 777 bytes} [Wed Jan 27 06:38:35 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 66/66] 223.38.78.22 () {44 vars in 782 bytes} [Wed Jan 27 06:38:43 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 67/67] 223.38.78.22 () {44 vars in 720 bytes} [Wed Jan 27 06:38:44 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (2 switches on core 0)
+[pid: 6966|app: 0|req: 68/68] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:38:46 2021] GET /quiz/ => generated 2187 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 69/69] 223.38.78.22 () {42 vars in 862 bytes} [Wed Jan 27 06:38:56 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 70/70] 223.38.78.22 () {44 vars in 908 bytes} [Wed Jan 27 06:38:57 2021] GET /quiz/ => generated 2187 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 71/71] 223.38.78.22 () {44 vars in 806 bytes} [Wed Jan 27 06:38:58 2021] GET /quiz/ => generated 2187 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 72/72] 223.38.78.22 () {40 vars in 682 bytes} [Wed Jan 27 06:39:01 2021] GET /save_ans?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 73/73] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:39:01 2021] GET /result/ => generated 876 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 74/74] 223.38.78.22 () {40 vars in 684 bytes} [Wed Jan 27 06:39:01 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 54566 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 75/75] 223.38.78.22 () {42 vars in 772 bytes} [Wed Jan 27 06:39:03 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 76/76] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:39:04 2021] GET /quiz/ => generated 2187 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 77/77] 223.38.78.22 () {40 vars in 684 bytes} [Wed Jan 27 06:39:06 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 54566 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 78/78] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:39:06 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 79/79] 223.38.78.22 () {40 vars in 729 bytes} [Wed Jan 27 06:39:11 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 80/80] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:39:13 2021] GET /quiz/ => generated 2187 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 81/81] 223.38.78.22 () {42 vars in 874 bytes} [Wed Jan 27 06:39:13 2021] GET /admin/ => generated 4353 bytes in 20 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 82/82] 223.38.78.22 () {40 vars in 684 bytes} [Wed Jan 27 06:39:14 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 54566 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 83/83] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:39:14 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 84/84] 223.38.78.22 () {44 vars in 944 bytes} [Wed Jan 27 06:39:15 2021] GET /admin/Qapp/question/ => generated 6159 bytes in 37 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 85/85] 223.38.78.22 () {42 vars in 777 bytes} [Wed Jan 27 06:39:15 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 86/86] 223.38.78.22 () {44 vars in 976 bytes} [Wed Jan 27 06:39:17 2021] GET /admin/Qapp/question/1/change/ => generated 9245 bytes in 46 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 87/87] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:39:17 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 88/88] 223.38.78.22 () {42 vars in 753 bytes} [Wed Jan 27 06:39:19 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 89/89] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:39:21 2021] GET /quiz/ => generated 2187 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 90/90] 223.38.78.22 () {44 vars in 806 bytes} [Wed Jan 27 06:39:24 2021] GET /quiz/ => generated 2187 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 91/91] 223.38.78.22 () {44 vars in 806 bytes} [Wed Jan 27 06:39:25 2021] GET /quiz/ => generated 2187 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 92/92] 223.38.78.22 () {52 vars in 1241 bytes} [Wed Jan 27 06:39:44 2021] POST /admin/Qapp/question/1/change/ => generated 0 bytes in 19 msecs (HTTP/1.1 302) 10 headers in 776 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 93/93] 223.38.78.22 () {46 vars in 1403 bytes} [Wed Jan 27 06:39:45 2021] GET /admin/Qapp/question/ => generated 6440 bytes in 37 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 94/94] 223.38.78.22 () {42 vars in 777 bytes} [Wed Jan 27 06:39:45 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 95/95] 223.38.78.22 () {42 vars in 862 bytes} [Wed Jan 27 06:39:55 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 96/96] 223.38.78.22 () {44 vars in 908 bytes} [Wed Jan 27 06:39:57 2021] GET /quiz/ => generated 2184 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 97/97] 223.38.78.22 () {44 vars in 782 bytes} [Wed Jan 27 06:39:57 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 98/98] 223.38.78.22 () {44 vars in 720 bytes} [Wed Jan 27 06:39:57 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 99/99] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:39:58 2021] GET /quiz/ => generated 2184 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 100/100] 223.38.78.22 () {42 vars in 862 bytes} [Wed Jan 27 06:42:27 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 101/101] 223.38.78.22 () {44 vars in 908 bytes} [Wed Jan 27 06:42:29 2021] GET /quiz/ => generated 2267 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 102/102] 223.38.78.22 () {44 vars in 782 bytes} [Wed Jan 27 06:42:39 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 103/103] 223.38.78.22 () {44 vars in 720 bytes} [Wed Jan 27 06:42:39 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 104/104] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:42:41 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 105/105] 223.38.78.22 () {46 vars in 828 bytes} [Wed Jan 27 06:42:43 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 106/106] 223.38.78.22 () {44 vars in 725 bytes} [Wed Jan 27 06:42:44 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 107/107] 223.38.78.22 () {44 vars in 886 bytes} [Wed Jan 27 06:43:03 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 6966|app: 0|req: 108/108] 223.38.78.22 () {44 vars in 893 bytes} [Wed Jan 27 06:43:04 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 109/109] 223.38.78.22 () {44 vars in 908 bytes} [Wed Jan 27 06:43:05 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 110/110] 223.38.78.22 () {46 vars in 848 bytes} [Wed Jan 27 06:43:12 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 111/111] 223.38.78.22 () {46 vars in 848 bytes} [Wed Jan 27 06:43:14 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 112/112] 223.38.78.22 () {42 vars in 874 bytes} [Wed Jan 27 06:43:14 2021] GET /admin/ => generated 4724 bytes in 21 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 113/113] 223.38.78.22 () {44 vars in 745 bytes} [Wed Jan 27 06:43:15 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 114/114] 223.38.78.22 () {44 vars in 944 bytes} [Wed Jan 27 06:43:16 2021] GET /admin/Qapp/question/ => generated 6156 bytes in 37 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 115/115] 223.38.78.22 () {42 vars in 777 bytes} [Wed Jan 27 06:43:16 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 116/116] 223.38.78.22 () {44 vars in 976 bytes} [Wed Jan 27 06:43:18 2021] GET /admin/Qapp/question/1/change/ => generated 9255 bytes in 44 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 117/117] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:43:18 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 118/118] 223.38.78.22 () {46 vars in 848 bytes} [Wed Jan 27 06:43:22 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 119/119] 223.38.78.22 () {52 vars in 1241 bytes} [Wed Jan 27 06:43:25 2021] POST /admin/Qapp/question/1/change/ => generated 0 bytes in 16 msecs (HTTP/1.1 302) 10 headers in 776 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 120/120] 223.38.78.22 () {46 vars in 1403 bytes} [Wed Jan 27 06:43:25 2021] GET /admin/Qapp/question/ => generated 6440 bytes in 56 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 121/121] 223.38.78.22 () {42 vars in 777 bytes} [Wed Jan 27 06:43:25 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 122/122] 223.38.78.22 () {44 vars in 802 bytes} [Wed Jan 27 06:43:27 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 123/123] 223.38.78.22 () {42 vars in 862 bytes} [Wed Jan 27 06:43:31 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 124/124] 223.38.78.22 () {44 vars in 893 bytes} [Wed Jan 27 06:43:32 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 125/125] 223.38.78.22 () {44 vars in 908 bytes} [Wed Jan 27 06:43:33 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 126/126] 223.38.78.22 () {46 vars in 939 bytes} [Wed Jan 27 06:43:34 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 127/127] 223.38.78.22 () {46 vars in 939 bytes} [Wed Jan 27 06:43:34 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 128/128] 223.38.78.22 () {46 vars in 939 bytes} [Wed Jan 27 06:43:35 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 129/129] 223.38.78.22 () {44 vars in 917 bytes} [Wed Jan 27 06:44:02 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 130/130] 223.38.78.22 () {42 vars in 815 bytes} [Wed Jan 27 06:44:02 2021] GET /save_ans?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 131/131] 223.38.78.22 () {42 vars in 817 bytes} [Wed Jan 27 06:44:02 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 55509 bytes in 35 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 132/132] 223.38.78.22 () {44 vars in 905 bytes} [Wed Jan 27 06:44:07 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 133/133] 223.38.78.22 () {44 vars in 908 bytes} [Wed Jan 27 06:44:21 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 134/134] 223.38.78.22 () {44 vars in 782 bytes} [Wed Jan 27 06:44:26 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 135/135] 223.38.78.22 () {44 vars in 720 bytes} [Wed Jan 27 06:44:26 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 136/136] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:44:27 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 137/137] 223.38.78.22 () {44 vars in 898 bytes} [Wed Jan 27 06:44:31 2021] GET /admin/ => generated 5095 bytes in 21 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 138/138] 223.38.78.22 () {42 vars in 874 bytes} [Wed Jan 27 06:44:34 2021] GET /admin/ => generated 5095 bytes in 21 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 139/139] 223.38.78.22 () {44 vars in 944 bytes} [Wed Jan 27 06:44:35 2021] GET /admin/Qapp/question/ => generated 6156 bytes in 38 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 140/140] 223.38.78.22 () {42 vars in 777 bytes} [Wed Jan 27 06:44:36 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 141/141] 223.38.78.22 () {46 vars in 848 bytes} [Wed Jan 27 06:47:14 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 142/142] 223.38.78.22 () {44 vars in 745 bytes} [Wed Jan 27 06:47:15 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 143/143] 223.38.78.22 () {40 vars in 729 bytes} [Wed Jan 27 06:50:15 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 144/144] 223.38.78.22 () {40 vars in 667 bytes} [Wed Jan 27 06:50:16 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 145/145] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:50:17 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 146/146] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:51:25 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 147/147] 223.38.78.22 () {40 vars in 682 bytes} [Wed Jan 27 06:51:25 2021] GET /save_ans?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:51:25 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 (ip 223.38.78.22) !!!
+Wed Jan 27 06:51:25 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 (223.38.78.22)
+OSError: write error
+[pid: 6966|app: 0|req: 148/148] 223.38.78.22 () {40 vars in 684 bytes} [Wed Jan 27 06:51:25 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 6966|app: 0|req: 149/149] 223.38.78.22 () {40 vars in 729 bytes} [Wed Jan 27 06:51:35 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 150/150] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:51:36 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 151/151] 223.38.78.22 () {40 vars in 684 bytes} [Wed Jan 27 06:51:37 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 54566 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 152/152] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:51:37 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 153/153] 223.38.78.22 () {42 vars in 772 bytes} [Wed Jan 27 06:51:45 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 154/154] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 06:51:45 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 155/155] 223.38.78.22 () {40 vars in 684 bytes} [Wed Jan 27 06:51:47 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 54566 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 156/156] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:51:47 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 157/157] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:51:54 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 158/158] 223.38.78.22 () {44 vars in 866 bytes} [Wed Jan 27 06:51:55 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 159/159] 223.38.78.22 () {42 vars in 763 bytes} [Wed Jan 27 06:51:56 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 160/160] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:52:10 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 161/161] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:52:12 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 162/162] 223.38.78.22 () {44 vars in 865 bytes} [Wed Jan 27 06:52:13 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 163/163] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:52:14 2021] GET /save_ans?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 164/164] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:52:14 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 165/165] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:52:14 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 54788 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 166/166] 223.38.78.22 () {44 vars in 874 bytes} [Wed Jan 27 06:52:31 2021] GET /result/ => generated 2014 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 167/167] 223.38.78.22 () {42 vars in 747 bytes} [Wed Jan 27 06:52:31 2021] GET /save_ans?ans=undefined => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 168/168] 223.38.78.22 () {42 vars in 749 bytes} [Wed Jan 27 06:52:31 2021] GET /save_ans/?ans=undefined => generated 54679 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 169/169] 223.38.78.22 () {42 vars in 783 bytes} [Wed Jan 27 06:52:37 2021] GET /save_ans?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 170/170] 223.38.78.22 () {44 vars in 874 bytes} [Wed Jan 27 06:52:37 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:52:37 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 (ip 223.38.78.22) !!!
+Wed Jan 27 06:52:37 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 (223.38.78.22)
+OSError: write error
+[pid: 6966|app: 0|req: 171/171] 223.38.78.22 () {42 vars in 785 bytes} [Wed Jan 27 06:52:37 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 6966|app: 0|req: 172/172] 223.38.78.22 () {46 vars in 857 bytes} [Wed Jan 27 06:52:41 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 173/173] 223.38.78.22 () {44 vars in 755 bytes} [Wed Jan 27 06:52:41 2021] GET /save_ans?ans=%EC%9D%B4%EA%B8%80%EC%8A%A4 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 174/174] 223.38.78.22 () {42 vars in 753 bytes} [Wed Jan 27 06:52:47 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 175/175] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:52:50 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 176/176] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:52:50 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 177/177] 223.38.78.22 () {44 vars in 866 bytes} [Wed Jan 27 06:52:53 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 178/178] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:52:55 2021] GET /save_ans?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 179/179] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:52:55 2021] GET /result/ => generated 876 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 180/180] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:52:55 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 54788 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 181/181] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:52:59 2021] GET /save_ans?ans=%EC%9D%B4%EA%B8%80%EC%8A%A4 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 182/182] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:52:59 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 183/183] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:52:59 2021] GET /save_ans/?ans=%EC%9D%B4%EA%B8%80%EC%8A%A4 => generated 54788 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 184/184] 223.38.78.22 () {40 vars in 745 bytes} [Wed Jan 27 06:53:01 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 185/185] 223.38.78.22 () {44 vars in 866 bytes} [Wed Jan 27 06:53:03 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 186/186] 223.38.78.22 () {40 vars in 683 bytes} [Wed Jan 27 06:53:04 2021] GET /save_ans/?ans=undefined => generated 54493 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 187/187] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:53:04 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 188/188] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:53:05 2021] GET /save_ans?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 189/189] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:05 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 190/190] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:05 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54788 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 191/191] 223.38.78.22 () {40 vars in 717 bytes} [Wed Jan 27 06:53:07 2021] GET /save_ans?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 192/192] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:53:07 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 193/193] 223.38.78.22 () {40 vars in 719 bytes} [Wed Jan 27 06:53:07 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54601 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 194/194] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:08 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54788 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 195/195] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 06:53:09 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 196/196] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:09 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 197/197] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:09 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54788 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 198/198] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 06:53:10 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 199/199] 223.38.78.22 () {44 vars in 866 bytes} [Wed Jan 27 06:53:11 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 200/200] 223.38.78.22 () {40 vars in 717 bytes} [Wed Jan 27 06:53:11 2021] GET /save_ans?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 201/201] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:53:11 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:53:11 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 (ip 223.38.78.22) !!!
+Wed Jan 27 06:53:11 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 (223.38.78.22)
+OSError: write error
+[pid: 6966|app: 0|req: 202/202] 223.38.78.22 () {40 vars in 719 bytes} [Wed Jan 27 06:53:11 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 0 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 0 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 203/203] 223.38.78.22 () {42 vars in 748 bytes} [Wed Jan 27 06:53:12 2021] GET /save_ans?ans=undefined => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 204/204] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:12 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:53:12 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=undefined (ip 223.38.78.22) !!!
+Wed Jan 27 06:53:12 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=undefined (223.38.78.22)
+OSError: write error
+[pid: 6966|app: 0|req: 205/205] 223.38.78.22 () {42 vars in 750 bytes} [Wed Jan 27 06:53:12 2021] GET /save_ans/?ans=undefined => generated 0 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 6966|app: 0|req: 206/206] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:53:14 2021] GET /save_ans?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 207/207] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:14 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 208/208] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:14 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 54788 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 209/209] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:17 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:53:18 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 (ip 223.38.78.22) !!!
+Wed Jan 27 06:53:18 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 (223.38.78.22)
+OSError: write error
+[pid: 6966|app: 0|req: 210/210] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:18 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 6966|app: 0|req: 211/211] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 06:53:18 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 212/212] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 06:53:19 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 213/213] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:20 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 54788 bytes in 32 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 214/214] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:20 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 215/215] 223.38.78.22 () {40 vars in 719 bytes} [Wed Jan 27 06:53:21 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54601 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 216/216] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:53:21 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 217/217] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 06:53:22 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 218/218] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 06:53:23 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 219/219] 223.38.78.22 () {40 vars in 717 bytes} [Wed Jan 27 06:53:24 2021] GET /save_ans?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 220/220] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:53:24 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:53:24 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 (ip 223.38.78.22) !!!
+Wed Jan 27 06:53:24 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 (223.38.78.22)
+OSError: write error
+[pid: 6966|app: 0|req: 221/221] 223.38.78.22 () {40 vars in 719 bytes} [Wed Jan 27 06:53:24 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 6966|app: 0|req: 222/222] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 06:53:26 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 223/223] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:53:29 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 224/224] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:53:29 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 225/225] 223.38.78.22 () {44 vars in 866 bytes} [Wed Jan 27 06:53:30 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 226/226] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 06:53:30 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 227/227] 223.38.78.22 () {40 vars in 719 bytes} [Wed Jan 27 06:53:32 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 54601 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 228/228] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:53:32 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 229/229] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:53:32 2021] GET /save_ans?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 230/230] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:32 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 231/231] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:32 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54788 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 232/232] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:53:38 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 233/233] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:53:39 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 234/234] 223.38.78.22 () {44 vars in 866 bytes} [Wed Jan 27 06:53:39 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 235/235] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 06:53:40 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 236/236] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:41 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 237/237] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:53:41 2021] GET /save_ans?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:53:41 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 (ip 223.38.78.22) !!!
+Wed Jan 27 06:53:41 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 (223.38.78.22)
+OSError: write error
+[pid: 6966|app: 0|req: 238/238] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:41 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 0 bytes in 45 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 6966|app: 0|req: 239/239] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 06:53:42 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 240/240] 223.38.78.22 () {40 vars in 719 bytes} [Wed Jan 27 06:53:45 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 54601 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 241/241] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:53:45 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 242/242] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 06:53:46 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 243/243] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:46 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 06:53:47 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 (ip 223.38.78.22) !!!
+Wed Jan 27 06:53:47 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 (223.38.78.22)
+OSError: write error
+[pid: 6966|app: 0|req: 244/244] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:47 2021] GET /save_ans/?ans=%EB%B6%80%EB%8F%8C%EC%9D%B4 => generated 0 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 6966|app: 0|req: 245/245] 223.38.78.22 () {44 vars in 827 bytes} [Wed Jan 27 06:53:48 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 246/246] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 06:53:49 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 247/247] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:53:49 2021] GET /save_ans?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 248/248] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:50 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 249/249] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:50 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54788 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 250/250] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:51 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54788 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 251/251] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:52 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 252/252] 223.38.78.22 () {40 vars in 719 bytes} [Wed Jan 27 06:53:52 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 54601 bytes in 32 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 253/253] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:53:52 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 254/254] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 06:53:53 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 255/255] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:53:53 2021] GET /save_ans?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 256/256] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:53 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 257/257] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:54 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 54788 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 258/258] 223.38.78.22 () {42 vars in 786 bytes} [Wed Jan 27 06:53:55 2021] GET /save_ans/?ans=%ED%91%B8%EB%A5%B4%EB%AF%B8 => generated 54788 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 259/259] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:53:55 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 260/260] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:53:59 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6966|app: 0|req: 261/261] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:53:59 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 262/262] 223.38.78.22 () {44 vars in 866 bytes} [Wed Jan 27 06:54:00 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 263/263] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 06:54:01 2021] GET /save_ans?ans=%EC%9D%B4%EA%B8%80%EC%8A%A4 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 210 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 264/264] 223.38.78.22 () {44 vars in 875 bytes} [Wed Jan 27 06:54:01 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 265/265] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 06:54:03 2021] GET /quiz/ => generated 2267 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 6966|app: 0|req: 266/266] 223.38.78.22 () {40 vars in 719 bytes} [Wed Jan 27 06:54:09 2021] GET /save_ans/?ans=%EC%82%B0%EC%A7%80%EB%8B%88 => generated 54601 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 6966|app: 0|req: 267/267] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 06:54:09 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
