@@ -17,9 +17,10 @@
 <!-- Qustions -->
 <div class="main_content">
 {% for i in questions %}
+{{lst}}
     {% if i.img %}
     <div class="question_in_img">Q : {{i.question}}</div>
-    
+      
     <img src="{{i.img.url}}" id="question_img">
     <form class="question_form">
         <div class="radio-group">
