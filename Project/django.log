@@ -1,0 +1,778 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 26 09:49:08 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562feb46e740
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x562feb46e740 pid: 19865 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19865)
+spawned uWSGI worker 1 (pid: 19867, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 26 10:57:59 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5586cd6d7750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5586cd6d7750 pid: 20523 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20523)
+spawned uWSGI worker 1 (pid: 20525, cores: 1)
+Invalid HTTP_HOST header: '3.35.206.106'. You may need to add '3.35.206.106' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 20525|app: 0|req: 1/1] 114.200.91.101 () {40 vars in 731 bytes} [Tue Jan 26 10:58:55 2021] GET / => generated 57859 bytes in 48 msecs (HTTP/1.1 400) 3 headers in 116 bytes (2 switches on core 0)
+Invalid HTTP_HOST header: '3.35.206.106'. You may need to add '3.35.206.106' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 20525|app: 0|req: 2/2] 114.200.91.101 () {40 vars in 669 bytes} [Tue Jan 26 10:58:56 2021] GET /favicon.ico => generated 57907 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 26 11:07:21 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559ade29b750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "./Project/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "./Project/settings.py", line 44
+    ALLOWED_HOSTS = [3.35.206.106]
+                            ^
+SyntaxError: invalid syntax
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20636)
+spawned uWSGI worker 1 (pid: 20638, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 20638|app: -1|req: -1/1] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:07:30 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20638|app: -1|req: -1/2] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:07:31 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20638|app: -1|req: -1/3] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:07:32 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20638|app: -1|req: -1/4] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:07:32 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 26 11:10:22 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a400350750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "./Project/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "./Project/settings.py", line 44
+    ALLOWED_HOSTS = [*]
+                      ^
+SyntaxError: invalid syntax
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20684)
+spawned uWSGI worker 1 (pid: 20686, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/1] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:30 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/2] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:10:31 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/3] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:31 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/4] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:10:31 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/5] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:32 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/6] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:10:32 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/7] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:32 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/8] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:10:32 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/9] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:32 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/10] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:10:32 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/11] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:32 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/12] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:10:33 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/13] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:33 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/14] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:10:33 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/15] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:33 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/16] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:10:34 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20686|app: -1|req: -1/17] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:10:34 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 26 11:17:36 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a29b0f9750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55a29b0f9750 pid: 20803 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20803)
+spawned uWSGI worker 1 (pid: 20805, cores: 1)
+[pid: 20805|app: 0|req: 1/1] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:17:47 2021] GET / => generated 1438 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20805|app: 0|req: 2/2] 114.200.91.101 () {44 vars in 722 bytes} [Tue Jan 26 11:17:48 2021] GET /favicon.ico => generated 2764 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20805|app: 0|req: 3/3] 3.224.131.82 () {34 vars in 371 bytes} [Tue Jan 26 11:18:31 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /quiz/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: Qapp_question
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./Qapp/views.py", line 18, in quiz
+    count = Question.objects.all().count()
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/models/query.py", line 411, in count
+    return self.query.get_count(using=self.db)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 515, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 500, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: Qapp_question
+[pid: 20805|app: 0|req: 4/4] 114.200.91.101 () {42 vars in 777 bytes} [Tue Jan 26 11:19:32 2021] GET /quiz/ => generated 112185 bytes in 64 msecs (HTTP/1.1 500) 6 headers in 187 bytes (1 switches on core 0)
+Internal Server Error: /quiz/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: Qapp_question
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./Qapp/views.py", line 18, in quiz
+    count = Question.objects.all().count()
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/models/query.py", line 411, in count
+    return self.query.get_count(using=self.db)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 515, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 500, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: Qapp_question
+[pid: 20805|app: 0|req: 5/5] 114.200.91.101 () {42 vars in 777 bytes} [Tue Jan 26 11:23:59 2021] GET /quiz/ => generated 112185 bytes in 51 msecs (HTTP/1.1 500) 6 headers in 187 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 26 11:28:05 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55674b5ce750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55674b5ce750 pid: 20845 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20845)
+spawned uWSGI worker 1 (pid: 20847, cores: 1)
+[pid: 20847|app: 0|req: 1/1] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:28:17 2021] GET / => generated 1438 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 2/2] 114.200.91.101 () {42 vars in 762 bytes} [Tue Jan 26 11:28:18 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+./Qapp/views.py:19: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'Qapp.models.Question'> QuerySet.
+  paginator = Paginator(obj,1)
+[pid: 20847|app: 0|req: 3/3] 114.200.91.101 () {42 vars in 777 bytes} [Tue Jan 26 11:28:20 2021] GET /quiz/ => generated 1115 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 4/4] 192.35.168.16 () {34 vars in 372 bytes} [Tue Jan 26 13:58:48 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 5/5] 193.118.53.202 () {34 vars in 467 bytes} [Tue Jan 26 14:48:25 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 6/6] 114.200.91.101 () {40 vars in 741 bytes} [Tue Jan 26 15:08:12 2021] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 175 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 7/7] 114.200.91.101 () {40 vars in 743 bytes} [Tue Jan 26 15:08:12 2021] GET /admin/ => generated 0 bytes in 18 msecs (HTTP/1.1 302) 9 headers in 331 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 8/8] 114.200.91.101 () {40 vars in 780 bytes} [Tue Jan 26 15:08:12 2021] GET /admin/login/?next=/admin/ => generated 2194 bytes in 34 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 9/9] 114.200.91.101 () {52 vars in 1112 bytes} [Tue Jan 26 15:08:40 2021] POST /admin/login/?next=/admin/ => generated 2354 bytes in 166 msecs (HTTP/1.1 200) 9 headers in 461 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 10/10] 114.200.91.101 () {52 vars in 1112 bytes} [Tue Jan 26 15:08:55 2021] POST /admin/login/?next=/admin/ => generated 2356 bytes in 162 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 11/11] 114.200.91.101 () {52 vars in 1112 bytes} [Tue Jan 26 15:09:05 2021] POST /admin/login/?next=/admin/ => generated 2354 bytes in 162 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 12/12] 114.200.91.101 () {42 vars in 820 bytes} [Tue Jan 26 15:09:54 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 13/13] 114.200.91.101 () {44 vars in 866 bytes} [Tue Jan 26 15:09:59 2021] GET /quiz/ => generated 1115 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /config/getuser
+[pid: 20847|app: 0|req: 14/14] 209.141.60.195 () {40 vars in 651 bytes} [Tue Jan 26 15:12:41 2021] GET /config/getuser?index=0 => generated 2784 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 15/15] 168.61.39.6 () {36 vars in 539 bytes} [Tue Jan 26 15:23:25 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /HNAP1/
+[pid: 20847|app: 0|req: 16/16] 168.61.39.6 () {38 vars in 587 bytes} [Tue Jan 26 15:23:26 2021] GET /HNAP1/ => generated 2749 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /latest/meta-data/
+[pid: 20847|app: 0|req: 17/17] 185.220.101.198 () {36 vars in 497 bytes} [Tue Jan 26 15:41:49 2021] GET /latest/meta-data/ => generated 2785 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 18/18] 69.162.111.10 () {32 vars in 412 bytes} [Tue Jan 26 18:57:30 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 19/19] 69.162.111.10 () {30 vars in 383 bytes} [Tue Jan 26 18:57:30 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 20/20] 69.162.111.10 () {30 vars in 383 bytes} [Tue Jan 26 18:57:30 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 21/21] 69.162.111.10 () {30 vars in 383 bytes} [Tue Jan 26 18:57:30 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 22/22] 69.162.111.10 () {30 vars in 383 bytes} [Tue Jan 26 18:57:30 2021] GET / => generated 1438 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /GponForm/diag_Form
+[pid: 20847|app: 0|req: 23/23] 115.55.153.80 () {38 vars in 482 bytes} [Tue Jan 26 19:05:21 2021] POST /GponForm/diag_Form?images/ => generated 2794 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 24/24] 80.82.77.192 () {34 vars in 371 bytes} [Tue Jan 26 19:07:57 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 20847|app: 0|req: 25/25] 185.174.102.44 () {36 vars in 503 bytes} [Tue Jan 26 19:45:11 2021] GET /.env => generated 2743 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Forbidden (CSRF cookie not set.): /
+[pid: 20847|app: 0|req: 26/26] 185.174.102.44 () {40 vars in 610 bytes} [Tue Jan 26 19:45:11 2021] POST / => generated 2864 bytes in 3 msecs (HTTP/1.1 403) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /solr/admin/info/system
+[pid: 20847|app: 0|req: 27/27] 45.155.205.108 () {34 vars in 535 bytes} [Tue Jan 26 23:00:19 2021] GET /solr/admin/info/system?wt=json => generated 2808 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /api/jsonws/invoke
+[pid: 20847|app: 0|req: 28/28] 45.155.205.108 () {38 vars in 589 bytes} [Tue Jan 26 23:00:19 2021] POST /api/jsonws/invoke => generated 2786 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /index.php
+[pid: 20847|app: 0|req: 29/29] 45.155.205.108 () {34 vars in 699 bytes} [Tue Jan 26 23:00:19 2021] GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 => generated 2880 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 30/30] 45.155.205.108 () {34 vars in 535 bytes} [Tue Jan 26 23:00:19 2021] GET /?XDEBUG_SESSION_START=phpstorm => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 31/31] 45.155.205.108 () {36 vars in 632 bytes} [Tue Jan 26 23:00:20 2021] GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /Autodiscover/Autodiscover.xml
+[pid: 20847|app: 0|req: 32/32] 45.155.205.108 () {38 vars in 615 bytes} [Tue Jan 26 23:00:20 2021] POST /Autodiscover/Autodiscover.xml => generated 2822 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[pid: 20847|app: 0|req: 33/33] 45.155.205.108 () {38 vars in 691 bytes} [Tue Jan 26 23:00:20 2021] POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 2885 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[pid: 20847|app: 0|req: 34/34] 45.155.205.108 () {36 vars in 603 bytes} [Tue Jan 26 23:00:21 2021] GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 2884 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+[pid: 20847|app: 0|req: 35/35] 45.155.205.108 () {34 vars in 566 bytes} [Tue Jan 26 23:00:21 2021] GET /wp-content/plugins/wp-file-manager/readme.txt => generated 2869 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /console/
+[pid: 20847|app: 0|req: 36/36] 45.155.205.108 () {34 vars in 492 bytes} [Tue Jan 26 23:00:21 2021] GET /console/ => generated 2758 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /config/getuser
+[pid: 20847|app: 0|req: 37/37] 209.141.60.195 () {40 vars in 651 bytes} [Wed Jan 27 00:29:56 2021] GET /config/getuser?index=0 => generated 2784 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 20847|app: 0|req: 38/38] 209.17.97.114 () {30 vars in 379 bytes} [Wed Jan 27 02:03:24 2021] GET / => generated 56820 bytes in 34 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 20847|app: 0|req: 39/39] 170.130.187.30 () {30 vars in 342 bytes} [Wed Jan 27 02:35:24 2021] GET / => generated 56713 bytes in 31 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 20847|app: 0|req: 40/40] 18.220.236.68 () {36 vars in 502 bytes} [Wed Jan 27 03:01:52 2021] GET /.env => generated 2743 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Forbidden (CSRF cookie not set.): /
+[pid: 20847|app: 0|req: 41/41] 18.220.236.68 () {40 vars in 609 bytes} [Wed Jan 27 03:01:53 2021] POST / => generated 2864 bytes in 2 msecs (HTTP/1.1 403) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 42/42] 185.239.242.198 () {40 vars in 609 bytes} [Wed Jan 27 03:12:54 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /config/getuser
+[pid: 20847|app: 0|req: 43/43] 159.203.100.104 () {40 vars in 652 bytes} [Wed Jan 27 04:20:04 2021] GET /config/getuser?index=0 => generated 2784 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 44/44] 223.38.79.148 () {44 vars in 865 bytes} [Wed Jan 27 04:21:20 2021] GET /quiz/ => generated 1115 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 45/45] 209.17.96.42 () {30 vars in 388 bytes} [Wed Jan 27 04:35:38 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 46/46] 211.249.218.4 () {46 vars in 641 bytes} [Wed Jan 27 05:03:21 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 47/47] 223.38.78.22 () {40 vars in 729 bytes} [Wed Jan 27 05:03:27 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 48/48] 223.38.78.22 () {40 vars in 667 bytes} [Wed Jan 27 05:03:28 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 49/49] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 05:03:30 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 50/50] 223.38.78.22 () {40 vars in 646 bytes} [Wed Jan 27 05:03:32 2021] GET /save_ans?ans=undefined => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 51/51] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 05:03:32 2021] GET /result/ => generated 2014 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 52/52] 223.38.78.22 () {40 vars in 648 bytes} [Wed Jan 27 05:03:32 2021] GET /save_ans/?ans=undefined => generated 54458 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 53/53] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 05:03:33 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 54/54] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 05:03:34 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 55/55] 223.38.78.22 () {40 vars in 729 bytes} [Wed Jan 27 05:03:38 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 56/56] 64.233.172.122 () {38 vars in 623 bytes} [Wed Jan 27 05:03:38 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 57/57] 64.233.172.120 () {38 vars in 589 bytes} [Wed Jan 27 05:03:38 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 58/58] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 05:03:39 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 59/59] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 05:03:39 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 60/60] 39.7.28.6 () {42 vars in 817 bytes} [Wed Jan 27 05:03:43 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 61/61] 39.7.28.6 () {42 vars in 755 bytes} [Wed Jan 27 05:03:44 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 62/62] 223.38.78.22 () {40 vars in 735 bytes} [Wed Jan 27 05:03:44 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 63/63] 223.38.78.22 () {40 vars in 691 bytes} [Wed Jan 27 05:03:45 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 64/64] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 05:03:55 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 65/65] 223.38.78.22 () {40 vars in 681 bytes} [Wed Jan 27 05:03:58 2021] GET /save_ans?ans=undefined => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 66/66] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 05:03:58 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 05:03:58 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=undefined (ip 223.38.78.22) !!!
+Wed Jan 27 05:03:58 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=undefined (223.38.78.22)
+OSError: write error
+[pid: 20847|app: 0|req: 67/67] 223.38.78.22 () {40 vars in 683 bytes} [Wed Jan 27 05:03:58 2021] GET /save_ans/?ans=undefined => generated 0 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 20847|app: 0|req: 68/68] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:03:59 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 69/69] 39.7.28.6 () {42 vars in 745 bytes} [Wed Jan 27 05:04:01 2021] GET /save_ans?ans=undefined => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 70/70] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:04:01 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 71/71] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:04:01 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 72/72] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:04:05 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 05:04:05 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=undefined (ip 39.7.28.6) !!!
+Wed Jan 27 05:04:05 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=undefined (39.7.28.6)
+OSError: write error
+[pid: 20847|app: 0|req: 73/73] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:04:05 2021] GET /save_ans/?ans=undefined => generated 0 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 20847|app: 0|req: 74/74] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:04:08 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 75/75] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:04:09 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 76/76] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:04:09 2021] GET /result/ => generated 876 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 77/77] 39.7.28.6 () {44 vars in 860 bytes} [Wed Jan 27 05:04:10 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 78/78] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:04:11 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 79/79] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:04:12 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 80/80] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:04:12 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 81/81] 39.7.28.6 () {42 vars in 768 bytes} [Wed Jan 27 05:04:16 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 82/82] 39.7.28.6 () {42 vars in 717 bytes} [Wed Jan 27 05:04:16 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 83/83] 39.7.28.6 () {44 vars in 815 bytes} [Wed Jan 27 05:04:19 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 84/84] 39.7.28.6 () {44 vars in 818 bytes} [Wed Jan 27 05:04:20 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 85/85] 39.7.28.6 () {42 vars in 700 bytes} [Wed Jan 27 05:04:21 2021] GET /save_ans?ans=undefined => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 86/86] 39.7.28.6 () {44 vars in 827 bytes} [Wed Jan 27 05:04:21 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 87/87] 39.7.28.6 () {42 vars in 702 bytes} [Wed Jan 27 05:04:21 2021] GET /save_ans/?ans=undefined => generated 54632 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 88/88] 39.7.28.6 () {42 vars in 817 bytes} [Wed Jan 27 05:04:33 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 89/89] 39.7.28.6 () {42 vars in 755 bytes} [Wed Jan 27 05:04:33 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 90/90] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:04:35 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 20847|app: 0|req: 91/91] 51.105.58.200 () {36 vars in 502 bytes} [Wed Jan 27 05:04:37 2021] GET /.env => generated 2743 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Forbidden (CSRF cookie not set.): /
+[pid: 20847|app: 0|req: 92/92] 51.105.58.200 () {40 vars in 609 bytes} [Wed Jan 27 05:04:37 2021] POST / => generated 2864 bytes in 2 msecs (HTTP/1.1 403) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 93/93] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 05:04:38 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 94/94] 39.7.28.6 () {42 vars in 817 bytes} [Wed Jan 27 05:06:37 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 95/95] 39.7.28.6 () {42 vars in 755 bytes} [Wed Jan 27 05:06:38 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 96/96] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:39 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 97/97] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:43 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 98/98] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:45 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 99/99] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:47 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 100/100] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:49 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 101/101] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:50 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 102/102] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:51 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 103/103] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:52 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 104/104] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:54 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 105/105] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:55 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 106/106] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:11:56 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 107/107] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:13:14 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 108/108] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:13:19 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 109/109] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:13:22 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 110/110] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 05:13:44 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 111/111] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 05:13:49 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 112/112] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:13:51 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 113/113] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:14:48 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 114/114] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:14:52 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 115/115] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:14:54 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 116/116] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:14:55 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 117/117] 92.118.160.41 () {30 vars in 430 bytes} [Wed Jan 27 05:16:27 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 118/118] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 05:17:37 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 119/119] 39.7.28.6 () {42 vars in 817 bytes} [Wed Jan 27 05:18:04 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 120/120] 39.7.28.6 () {42 vars in 755 bytes} [Wed Jan 27 05:18:06 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 121/121] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:18:07 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 122/122] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:18:12 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 123/123] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:18:14 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 124/124] 192.241.214.22 () {34 vars in 373 bytes} [Wed Jan 27 05:18:25 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 125/125] 39.7.28.6 () {42 vars in 817 bytes} [Wed Jan 27 05:18:38 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 126/126] 39.7.28.6 () {42 vars in 755 bytes} [Wed Jan 27 05:18:38 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 127/127] 223.38.78.22 () {42 vars in 760 bytes} [Wed Jan 27 05:18:48 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 128/128] 39.7.28.6 () {42 vars in 817 bytes} [Wed Jan 27 05:18:54 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 129/129] 39.7.28.6 () {42 vars in 755 bytes} [Wed Jan 27 05:18:55 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 130/130] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:19:02 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 131/131] 39.7.28.6 () {42 vars in 745 bytes} [Wed Jan 27 05:19:03 2021] GET /save_ans?ans=undefined => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 132/132] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:03 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 133/133] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:03 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 134/134] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:05 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 135/135] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:05 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 136/136] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:08 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 137/137] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:08 2021] GET /result/ => generated 876 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 138/138] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 05:19:09 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 139/139] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:12 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+Wed Jan 27 05:19:12 2021 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /save_ans/?ans=undefined (ip 39.7.28.6) !!!
+Wed Jan 27 05:19:12 2021 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /save_ans/?ans=undefined (39.7.28.6)
+OSError: write error
+[pid: 20847|app: 0|req: 140/140] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:12 2021] GET /save_ans/?ans=undefined => generated 0 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 0 bytes (0 switches on core 0)
+[pid: 20847|app: 0|req: 141/141] 39.7.28.6 () {42 vars in 817 bytes} [Wed Jan 27 05:19:16 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 142/142] 39.7.28.6 () {42 vars in 755 bytes} [Wed Jan 27 05:19:17 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 143/143] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:19:17 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 144/144] 39.7.28.6 () {42 vars in 745 bytes} [Wed Jan 27 05:19:18 2021] GET /save_ans?ans=undefined => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 145/145] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:18 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 146/146] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:18 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 147/147] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:22 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (2 switches on core 0)
+[pid: 20847|app: 0|req: 148/148] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:22 2021] GET /result/ => generated 876 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 149/149] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:24 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 150/150] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:24 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 151/151] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:26 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 152/152] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:26 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 153/153] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 05:19:31 2021] GET /quiz/ => generated 1115 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 154/154] 39.7.28.6 () {44 vars in 863 bytes} [Wed Jan 27 05:19:36 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 155/155] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 05:19:37 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 156/156] 223.38.78.22 () {40 vars in 683 bytes} [Wed Jan 27 05:19:37 2021] GET /save_ans/?ans=undefined => generated 54493 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 157/157] 39.7.28.6 () {42 vars in 747 bytes} [Wed Jan 27 05:19:37 2021] GET /save_ans/?ans=undefined => generated 54677 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 158/158] 39.7.28.6 () {44 vars in 872 bytes} [Wed Jan 27 05:19:37 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 159/159] 223.38.78.22 () {40 vars in 683 bytes} [Wed Jan 27 05:19:49 2021] GET /save_ans/?ans=undefined => generated 54493 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 160/160] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 05:19:49 2021] GET /result/ => generated 876 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 161/161] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 05:19:50 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 162/162] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 05:19:55 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 163/163] 223.38.78.22 () {40 vars in 729 bytes} [Wed Jan 27 05:19:55 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 164/164] 223.38.78.22 () {40 vars in 683 bytes} [Wed Jan 27 05:19:56 2021] GET /save_ans/?ans=undefined => generated 54493 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 165/165] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 05:19:56 2021] GET /result/ => generated 876 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 166/166] 223.38.78.22 () {42 vars in 775 bytes} [Wed Jan 27 05:20:00 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 167/167] 223.38.78.22 () {40 vars in 648 bytes} [Wed Jan 27 05:20:01 2021] GET /save_ans/?ans=undefined => generated 54458 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 168/168] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 05:20:01 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 169/169] 223.38.78.22 () {42 vars in 784 bytes} [Wed Jan 27 05:20:01 2021] GET /result/ => generated 2014 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 170/170] 223.38.78.22 () {40 vars in 729 bytes} [Wed Jan 27 05:20:04 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 171/171] 223.38.78.22 () {42 vars in 799 bytes} [Wed Jan 27 05:20:09 2021] GET /quiz/ => generated 1115 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Internal Server Error: /save_ans/
+Traceback (most recent call last):
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/ubuntu/PNU-Quiz/Project/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view Qapp.views.save_ans didn't return an HttpResponse object. It returned None instead.
+[pid: 20847|app: 0|req: 172/172] 223.38.78.22 () {40 vars in 683 bytes} [Wed Jan 27 05:20:55 2021] GET /save_ans/?ans=undefined => generated 54493 bytes in 31 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 173/173] 223.38.78.22 () {42 vars in 808 bytes} [Wed Jan 27 05:20:56 2021] GET /result/ => generated 876 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 174/174] 223.38.78.22 () {42 vars in 796 bytes} [Wed Jan 27 05:20:57 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 175/175] 39.7.28.6 () {42 vars in 817 bytes} [Wed Jan 27 05:21:07 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 176/176] 39.7.28.6 () {42 vars in 755 bytes} [Wed Jan 27 05:21:08 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 177/177] 39.7.28.6 () {42 vars in 754 bytes} [Wed Jan 27 05:21:13 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 178/178] 39.7.28.6 () {42 vars in 710 bytes} [Wed Jan 27 05:21:13 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20847|app: 0|req: 179/179] 39.7.28.6 () {44 vars in 818 bytes} [Wed Jan 27 05:21:37 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 20847|app: 0|req: 180/180] 223.38.78.22 () {40 vars in 691 bytes} [Wed Jan 27 05:56:56 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)

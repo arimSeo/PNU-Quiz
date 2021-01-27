@@ -1,0 +1,93 @@
+/* CSS 초기화 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Noto Serif KR', serif;	
+}
+
+*{
+	outline: none;
+}
+
+button{
+	font-family: 'Noto Serif KR', serif;	
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    /* margin:0 auto; */
+    background-color: #F1EFED;
+    position: static;
+   
+}
+
+@media ( max-width: 900px ) {
+	.test_num{
+		margin:15% 74% 2% 10% ;
+	
+		padding:1% 1% 1% 1% ;
+
+		border: 1px solid rgb(92, 80, 80);
+		border-radius: 11px;
+		box-shadow: 3px 3px 3px rgb(88, 87, 87);
+		text-align: center;
+		font-size: 13px;
+	}
+
+	.small_title{   
+		margin-top:-8%;
+		padding-top:12%;
+		font-size:16px;
+		font-weight:600;
+		/* 글씨크기 화면에따라 어케할지 */
+		-webkit-text-size-adjust: 100%;
+		text-align: center;
+	}
+
+	.big_title{
+		margin-bottom: 5%;
+
+		line-height: 50px;
+		font-weight: 1000;
+		font-size: 29px;
+		text-align: center;
+	}
+}
