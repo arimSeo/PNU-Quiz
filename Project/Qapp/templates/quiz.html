@@ -17,10 +17,10 @@
 <!-- Qustions -->
 <div class="main_content">
 {% for i in questions %}
-    {% if i.img1 %}
+    {% if i.img %}
     <div class="question_in_img">Q : {{i.question}}</div>
     
-    <img src="{{i.img1.url}}" id="question_img">
+    <img src="{{i.img.url}}" id="question_img">
     <form class="question_form">
         <div class="radio-group">
             <label class="labl-img" for="option1">
