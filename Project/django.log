@@ -776,3 +776,65 @@ Not Found: /favicon.ico
 [pid: 20847|app: 0|req: 179/179] 39.7.28.6 () {44 vars in 818 bytes} [Wed Jan 27 05:21:37 2021] GET /quiz/ => generated 1115 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
 Not Found: /favicon.ico
 [pid: 20847|app: 0|req: 180/180] 223.38.78.22 () {40 vars in 691 bytes} [Wed Jan 27 05:56:56 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jan 27 06:07:31 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5596f4e3a740
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5596f4e3a740 pid: 6882 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6882)
+spawned uWSGI worker 1 (pid: 6884, cores: 1)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 1/1] 223.38.78.22 () {42 vars in 756 bytes} [Wed Jan 27 06:07:51 2021] GET /favicon.ico => generated 2764 bytes in 45 msecs (HTTP/1.1 404) 5 headers in 159 bytes (2 switches on core 0)
+[pid: 6884|app: 0|req: 2/2] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:07:59 2021] GET / => generated 1438 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 3/3] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:08:01 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 4/4] 223.38.78.22 () {42 vars in 819 bytes} [Wed Jan 27 06:08:08 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 5/5] 223.38.78.22 () {42 vars in 771 bytes} [Wed Jan 27 06:08:09 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 6/6] 223.38.78.22 () {40 vars in 735 bytes} [Wed Jan 27 06:08:14 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 7/7] 223.38.78.22 () {42 vars in 766 bytes} [Wed Jan 27 06:08:15 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 8/8] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:08:37 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 9/9] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:08:38 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 10/10] 223.38.78.22 () {40 vars in 735 bytes} [Wed Jan 27 06:08:38 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 11/11] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:08:41 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 12/12] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:08:42 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 13/13] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:08:43 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 14/14] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:08:44 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 15/15] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:08:47 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 16/16] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:08:47 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 17/17] 223.38.78.22 () {42 vars in 766 bytes} [Wed Jan 27 06:08:53 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 18/18] 223.38.78.22 () {42 vars in 820 bytes} [Wed Jan 27 06:08:55 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 19/19] 223.38.78.22 () {42 vars in 758 bytes} [Wed Jan 27 06:08:55 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 20/20] 223.38.78.22 () {44 vars in 851 bytes} [Wed Jan 27 06:08:58 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 6884|app: 0|req: 21/21] 223.38.78.22 () {42 vars in 757 bytes} [Wed Jan 27 06:09:01 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6884|app: 0|req: 22/22] 223.38.78.22 () {42 vars in 713 bytes} [Wed Jan 27 06:09:01 2021] GET /favicon.ico => generated 2764 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
