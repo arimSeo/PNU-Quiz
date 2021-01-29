@@ -4,3 +4,5 @@ venv/
 migrations
 secrets.json
 db.sqlite3
+django.log
+uwsgi.ini
