@@ -3,6 +3,19 @@
 }
 
 /* PC 버전 */
+.pnu-name{
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt{
+    text-align: center;
+    /* font-size: 10px; */
+    border-radius: 1%;
+    border:3px solid rgb(92, 80, 80);
+}
+
 .test_num{
 /* absolute는 상위 요소<div>등을 기준으로 상하좌우 이동 */
     /* position: absolute; */

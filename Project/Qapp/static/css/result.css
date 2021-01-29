@@ -43,17 +43,20 @@
     text-align: center;
 }
     
-.h{
+.user{
     /* margin:1% 0 0% 20%; */
     font-size: large;
     color: rgb(179, 20, 20);
-    font-weight: bold;
     text-align: center;
-    border:1px double;
+    border:1.5px double;
     width:25%;
     padding:1% 2% 1% 2%;
     display:block;
     margin: 0 auto;
+}
+
+.name{
+    font-weight: bold;
 }
 
 .comment{
