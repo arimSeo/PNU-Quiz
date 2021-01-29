@@ -1,7 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Question, PnuUser, Answer
-from django.core.paginator import Paginator
-
 
 def home(request):
     if request.GET:
@@ -22,7 +20,7 @@ def quiz(request,pk):
         user.answer = ''.join([user.answer, request.POST['answer']])
         user.save()
         if request.POST['answer'] == aans.ans[num-2]:    #문제 index 0(1번답) ~
-            user.result += 1
+            user.score += 1
             user.save()
 
         if num > 4:     #4문제 기준-> 10문제:10으로 고치기
