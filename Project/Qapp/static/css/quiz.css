@@ -3,7 +3,7 @@
 /* absolute는 상위 요소<div>등을 기준으로 상하좌우 이동 */
     /* position: absolute; */
     /* left: 15%; */
-    margin: 3% 53% 1% 0% ;
+    margin: 1% 53% 1% 0% ;
     padding-top: 5%;
     text-align: center;
     font-size: 1.1rem;
@@ -57,63 +57,6 @@
     line-height: 25px;
 }
 
-.each-radio{
-    margin-top: 0.5%;
-    text-align: center;
-}
-
-
-
-/* radio-label */
-.each-radio {
-    display : block; 
-    width: 50%;
-    border:2px solid rgb(92, 80, 80);
-    border-radius: 10px;
-    margin: 0 auto;
-    padding:1% 0 1% 1.5%;
-    text-align: left;
-}
-.each-radio:hover{
-    /* font-size: larger; */
-    color: rgb(43, 122, 226);
-}
-
-.labl > input{ /* HIDE RADIO */
-    visibility: hidden; /* Makes input not-clickable */
-    position: absolute; /* Remove input from document flow */
-}
-
-.each-radio > input + div{
-    cursor:pointer;
-}
-
-.each-radio > input:checked{
-    /* background-color: salmon; */
-    /* font-size: larger; */
-    color: rgb(29, 93, 177);
-}
-
-/* radio-label - img*/
-.each-radio-img{
-    display : block; 
-    width: 50%;
-    border:2px solid rgb(92, 80, 80);
-    border-radius: 10px;
-    margin: 0 auto;
-    padding:1% 0 1% 1.5%;
-    text-align: left;
-}
-
-.each-radio-img:hover{
-    /* font-size: larger; */
-    color: rgb(43, 122, 226);
-}
-
-.labl-img> input{ /* HIDE RADIO */
-    visibility: hidden; /* Makes input not-clickable */
-    position: absolute; /* Remove input from document flow */
-}
 
 .active{
     background:#C2C0BE;
@@ -121,79 +64,42 @@
     font-weight: bold;
 }
 
-/* next&submit btn */
-.paginator{
-    text-align: center;
-    margin-bottom: 3%;
-}
-#next_btn{
-    border-radius: 5px;
-    border: 1.5px solid gray;
-    padding: 0.5% 3% 0.5% 3%;
-    margin-top: 1%;
-    background-color: #F1EFED;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor:pointer;
-}
-#next_btn:hover{
-    background-color: #590209;
-    text-align: center;
-    cursor:pointer;
-    color: white;
-}
-
-#submit_btn{
-    border-radius: 5px;
-    border: 1.5px solid gray;
-    padding: 0.8% 3% 0.8% 3%;
-    margin-top: 3%;
-    background-color: #F1EFED;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor:pointer;
-}
-#submit_btn:hover{
-    background-color: #590209;
-    text-align: center;
-    cursor:pointer;
-    color: white;
+.quiz_form{
+    margin: 1% 1%;
 }
 
 /* img있는 페이지 */
 #question_img{
-    width: 18%;
-    height: 18%;
+    width: 16%;
+    height: 16%;
     display: block;
     margin : 0 auto;
     margin-top: -1%;
     margin-bottom: 1%;
 }
 
-.question_form{
-    text-align: center;
-}
-
-.question-img{
-    text-align: center;
-}
 
 .options{
     display : block; 
     width: 50%;
+    height: 50px;
     border:2px solid rgb(92, 80, 80);
     border-radius: 10px;
     margin: 0 auto;
-    padding:1% 0 1% 1.5%;
+    padding:0.8% 0 0.8% 1%;
     text-align: left;
     cursor: pointer;
+    font-family: 'Noto Serif KR', serif;	
 }
 
 .options:hover{
+    background:#C2C0BE;
     color:#424242;
-    font-weight: 800;
+    font-weight: bold;
+}
+
+.quiz_form:hover{
+    margin: 1% 1%;
 }
 
 .question_in_img{
@@ -286,56 +192,20 @@
         margin-bottom: 4%;
     }
 
-    .each-radio{
-        margin-top: 0.5%;
-        text-align: center;
-        /* width: 30%; */
-    }
-
     .options{
         display : block; 
         width: 78%;
         border:2px solid rgb(92, 80, 80);
         border-radius: 10px;
         margin: 0 auto;
-        padding:3% 0 3% 3%;
+        margin-top: 3%;
+        padding:1% 0 1% 3%;
         text-align: left;
     }
     
     .options:hover{
-        color:rgb(43, 122, 226);
-    }
-
-    #next_btn{
-        border-radius: 5px;
-        border: 1.5px solid gray;
-        padding: 0.5% 3% 0.5% 3%;
-        margin-top: 5%;
-        background-color: #F1EFED;
-        text-align: center;
-        font-size: 1rem;
+        background:#C2C0BE;
+        color:#424242;
         font-weight: bold;
-        cursor:pointer;
-    }
-    #submit_btn{
-        border-radius: 5px;
-        border: 1.5px solid gray;
-        padding: 1% 3% 1% 3%;
-        margin-top: 8%;
-        background-color: #F1EFED;
-        text-align: center;
-        font-size: 1rem;
-        font-weight: bold;
-        cursor:pointer;
-    }
-    #next_btn:hover{
-        background-color: rgb(132, 171, 223);
-        text-align: center;
-        cursor:pointer;
-    }
-    #submit_btn:hover{
-        background-color: rgb(132, 171, 223);
-        text-align: center;
-        cursor:pointer;
     }
 }

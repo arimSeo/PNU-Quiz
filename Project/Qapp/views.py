@@ -3,27 +3,15 @@ from .models import Question, PnuUser, Answer
 
 def home(request):
     if request.GET:
-<<<<<<< HEAD
-        challenger = User()
-        challenger.name = request.GET['name']           #<input txt > name="name"
-        challenger.save()
-        return redirect('quiz', challenger.pk)
-=======
         user = PnuUser()
         user.name = request.GET['name']           #<input txt > name="name"
         user.save()
         return redirect("quiz", user.pk)
->>>>>>> f95dfc124bc5165c338be17b7a0454413704b682
     return render(request, "home.html")
 
 
 def quiz(request,pk):
-<<<<<<< HEAD
-    
-    user = get_object_or_404(User, pk=pk)
-=======
     user = get_object_or_404(PnuUser, pk=pk)
->>>>>>> f95dfc124bc5165c338be17b7a0454413704b682
     aans=get_object_or_404(Answer)
 
     num = 1
