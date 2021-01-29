@@ -21,16 +21,15 @@ class Question(models.Model):
         return str(self.id)+"번 문제"
 
 
-class User(models.Model):
+class PnuUser(models.Model):
     name = models.CharField(max_length=30)
     # quiz_url = models.URLField(max_length=200, null=True, blank=True, unique=True)
     answer = models.CharField(default="", max_length=10, null=True, blank=True)
 #answer:숫자로 1234중 선택한거
-    result = models.IntegerField(default=0, null=True, blank=True)
-#result: 맞은 개수
+    score = models.IntegerField(default=0, null=True, blank=True)
 
     def __str__(self):
         return self.name
 
     class Meta:
-        ordering = ['result', 'name']
+        ordering = ['score', 'name']

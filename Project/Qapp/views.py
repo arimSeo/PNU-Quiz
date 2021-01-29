@@ -1,19 +1,19 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Question, User, Answer
+from .models import Question, PnuUser, Answer
 from django.core.paginator import Paginator
 
 
 def home(request):
     if request.GET:
-        challenger = User()
-        challenger.name = request.GET['name']           #<input txt > name="name"
-        challenger.save()
-        return redirect("quiz", challenger.pk)
+        user = PnuUser()
+        user.name = request.GET['name']           #<input txt > name="name"
+        user.save()
+        return redirect("quiz", user.pk)
     return render(request, "home.html")
 
 
 def quiz(request,pk):
-    user = get_object_or_404(User, pk=pk)
+    user = get_object_or_404(PnuUser, pk=pk)
     aans=get_object_or_404(Answer)
 
     num = 1
@@ -34,7 +34,7 @@ def quiz(request,pk):
 
 
 def result(request,pk):
-    user = get_object_or_404(User, pk=pk)
+    user = get_object_or_404(PnuUser, pk=pk)
     if len(user.answer) == 4:           #4문제 기준!! ->10문제: 10으로 고치기
         while True:
             try:
