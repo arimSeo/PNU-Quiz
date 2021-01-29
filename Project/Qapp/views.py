@@ -8,11 +8,12 @@ def home(request):
         challenger = User()
         challenger.name = request.GET['name']           #<input txt > name="name"
         challenger.save()
-        return redirect("quiz", challenger.pk)
+        return redirect('quiz', challenger.pk)
     return render(request, "home.html")
 
 
 def quiz(request,pk):
+    
     user = get_object_or_404(User, pk=pk)
     aans=get_object_or_404(Answer)
 

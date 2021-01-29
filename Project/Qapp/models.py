@@ -25,9 +25,9 @@ class User(models.Model):
     name = models.CharField(max_length=30)
     # quiz_url = models.URLField(max_length=200, null=True, blank=True, unique=True)
     answer = models.CharField(default="", max_length=10, null=True, blank=True)
-#answer:숫자로 1234중 선택한거
+    #answer:숫자로 1234중 선택한거
     result = models.IntegerField(default=0, null=True, blank=True)
-#result: 맞은 개수
+    #result: 맞은 개수
 
     def __str__(self):
         return self.name
