@@ -19,11 +19,11 @@
 
     <div class="user">부산대 <span class="name">{{user.name}}</span> 님의 성적표 </div>
     
-    {% if user.result < 2 %}
+    {% if user.score < 2 %}
     <div class="results">
     <div class="title">📜 자네... 우리학교가 어디에 있는지는 아시는가..??</div>
     <img src="{% static 'image/F.png' %}" class="grade_img"><br>
-        <div class="score">총점: {{user.result}} 점</div>
+        <div class="score">총점: {{user.score}} 점</div>
     </div> 
         <div class="comment">
             교수님이 출석부르시다가 억장와르르 무너지는 소리가 금정산까지 울려퍼지네요..ㅠ<br>
@@ -33,11 +33,11 @@
         <img src="{% static 'image/에프.png' %}" class="fun_img"><br>
   
 
-    {% elif user.result < 5 %}
+    {% elif user.score < 5 %}
     <div class="results">
     <div class="title">📜 자 이제 시작이야~ </div><br>
     <img src="{% static 'image/c+.png' %}" class="grade_img"><br>
-        <div class="score">총점: {{user.result}}점</div>
+        <div class="score">총점: {{user.score}}점</div>
     </div> 
         <div class="comment">
             : 흠흠... 이제 부산대학교에 갓 입학한,, 갓김치 처럼 파룻파룻한 새내기시군요~!🙌<br>
@@ -47,11 +47,11 @@
         <img src="{% static 'image/재수강.jpg' %}" class="fun_img"><br>
      
 
-    {% elif user.result < 8 %}
+    {% elif user.score < 8 %}
     <div class="results">
         <div class="title">📜 학교 쫌 다녀봐따 이말이야~ </div><br>
         <img src="{% static 'image/b+.png' %}" class="grade_img"><br>
-        <div class="score">총점: {{user.result}}점</div>
+        <div class="score">총점: {{user.score}}점</div>
     </div>
         <div class="comment">
             : (조심스럽게) 혹싀,,,,,,, 20학번인가 자네,,,,??
@@ -67,7 +67,7 @@
     <div class="results">
         <div class="title">📜부산대에대한 애교심이 넘쳐흐르는 당신!!! </div><br>
         <img src="{% static 'image/A+.png' %}" class="grade_img"><br>
-        <div class="score">총점: {{user.result}}점</div>
+        <div class="score">총점: {{user.score}}점</div>
     </div>
         <div class="comment">
             Type. <br>
