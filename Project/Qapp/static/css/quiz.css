@@ -98,9 +98,6 @@
     font-weight: bold;
 }
 
-.quiz_form:hover{
-    margin: 1% 1%;
-}
 
 .question_in_img{
     border:2px solid rgb(92, 80, 80);

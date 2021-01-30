@@ -22,7 +22,7 @@ class Question(models.Model):
 
 
 class PnuUser(models.Model):
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=30, default="익명")
     # quiz_url = models.URLField(max_length=200, null=True, blank=True, unique=True)
     answer = models.CharField(default="", max_length=10, null=True, blank=True)
     #answer:숫자로 1234중 선택한거

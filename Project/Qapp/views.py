@@ -5,6 +5,8 @@ def home(request):
     if request.GET:
         user = PnuUser()
         user.name = request.GET['name']           #<input txt > name="name"
+        if request.GET['name'] == "":
+            user.name = "익명"
         user.save()
         return redirect("quiz", user.pk)
     return render(request, "home.html")
@@ -18,6 +20,8 @@ def quiz(request,pk):
     if request.POST:
         num = int(request.POST['quiz_id']) + 1          #quiz_id, answer,은 <input name>으로
         user.answer = ''.join([user.answer, request.POST['answer']])
+        # join([]) -> python문법 : 리스트를 문자열로 변환
+
         user.save()
         if request.POST['answer'] == aans.ans[num-2]:    #문제 index 0(1번답) ~
             user.score += 1
@@ -33,6 +37,15 @@ def quiz(request,pk):
 
 def result(request,pk):
     user = get_object_or_404(PnuUser, pk=pk)
+
+    # 평균 점수 구하기
+    all_user = PnuUser.objects.all()
+    scorelst = []
+    for i in all_user:
+        each_score = i.score
+        scorelst.append(each_score)
+    average_score = round(sum(scorelst)/len(all_user))
+
     if len(user.answer) == 4:           #4문제 기준!! ->10문제: 10으로 고치기
         while True:
             try:
@@ -40,5 +53,5 @@ def result(request,pk):
                 break
             except:
                 return render(request, 'error.html')
-    return render(request, "result.html", {"user":user})
+    return render(request, "result.html", {"user":user, 'average_score':average_score})
 

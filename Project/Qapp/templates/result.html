@@ -81,7 +81,17 @@
 
         {% endif %}
     <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재응시</button></a></div>
+    
+    <div class="scores">
+        <div id="average_score">{{average_score}}</div>
+        <div id="user_score">{{user.score}}</div>
+    </div>
 
+    <div class="bar_box">
+        <div id="score_bar">평균학점</div>
+        <div id="score_bar2">나의 학점</div>
+    </div>
+        
 </div>
 
 {% endblock %}
