@@ -1,7 +1,7 @@
 window.onload = initall;
 
 function initall() {
-    // $(".result_content").hide();
+    $(".result_content").hide();
     setTimeout(function () {
         $(".loading").fadeOut(400);
         $(".result_content").fadeIn(4000);
@@ -23,26 +23,36 @@ function initall() {
     // document.getElementById("content_bar").style.width = `${average_score_percent}%`;
     // document.getElementById("content_bar2").style.width = `${user_score_percent}%`;
 
-    var first_width = 0;
-    var id = setInterval(frame, 50);
-    function frame() {
-        if (first_width >= `${average_score_percent}`) {
-            clearInterval(id);
-        } else {
-            first_width++;
-            score.style.width = first_width + "%";
-            // score.innerHTML = first_width+"%";
+    
+    setTimeout(function(){
+        var first_width = 0;
+        var id = setInterval(frame, 50);
+        function frame() {
+            if (first_width >= `${average_score_percent}`) {
+                clearInterval(id);
+            } else {
+                first_width++;
+                score.style.width = first_width + "%";
+            }
+            setTimeout(function(){
+                score.innerHTML = "평균 학점";
+                score.style.fontSize="0.7rem"
+            }, 1500);
         }
-    }
-    var first_width2 = 0;
-    var id2 = setInterval(frame2, 50);
-    function frame2() {
-        if (first_width2 >= `${user_score_percent}`) {
-            clearInterval(id2);
-        } else {
-            first_width2++;
-            myscore.style.width = first_width2 + "%";
-            // myscore.innerHTML = first_width+"%";
+        var first_width2 = 0;
+        var id2 = setInterval(frame2, 50);
+        function frame2() {
+            if (first_width2 >= `${user_score_percent}`) {
+                clearInterval(id2);
+            } else {
+                first_width2++;
+                myscore.style.width = first_width2 + "%";
+                // myscore.innerHTML = first_width+"%";
+            }
+            setTimeout(function(){
+                myscore.innerHTML = "나의 학점";
+                myscore.style.fontSize="0.7rem"
+            }, 2000);
         }
-    }
+    },2900)
 };

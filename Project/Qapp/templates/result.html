@@ -22,20 +22,20 @@
     {% if user.score < 2 %}
     <div class="results">
     <div class="title">📜 자네... 우리학교가 어디에 있는지는 아시는가..??</div>
-
-    <img src="{% static 'image/F.png' %}" class="grade_img"><br>
-    <div class="verti"></div>
-        <div class="all-bar">
-            <div class="scores">
-                <div id="average_score">{{average_score}}</div>
-                <div id="user_score">{{user.score}}</div>
+    <div class="scoreandbar">
+        <img src="{% static 'image/F.png' %}" class="grade_img"><br>
+        <div class="verti"></div>
+            <div class="all-bar">
+                <div class="scores">
+                    <div id="average_score">{{average_score}}</div>
+                    <div id="user_score">{{user.score}}</div>
+                </div>
+                <div class="bar_box">
+                    <div id="score_bar"></div>
+                    <div id="score_bar2"></div>
+                </div>
             </div>
-            <div class="bar_box">
-                <div id="score_bar">평균학점</div>
-                <div id="score_bar2">나의 학점</div>
-            </div>
-        </div>
-
+    </div>
         <div class="res-score">
             <div class="score">총점: {{user.score}}점</div>
         </div>
@@ -51,20 +51,20 @@
     {% elif user.score < 5 %}
     <div class="results">
         <div class="title">📜 자 이제 시작이야~ </div><br>
-        
-        <img src="{% static 'image/c+.png' %}" class="grade_img"><br>
-        <div class="verti"></div>
-        <div class="all-bar">
-            <div class="scores">
-                <div id="average_score">{{average_score}}</div>
-                <div id="user_score">{{user.score}}</div>
+        <div class="scoreandbar">
+            <img src="{% static 'image/c+.png' %}" class="grade_img"><br>
+            <div class="verti"></div>
+            <div class="all-bar">
+                <div class="scores">
+                    <div id="average_score">{{average_score}}</div>
+                    <div id="user_score">{{user.score}}</div>
+                </div>
+                <div class="bar_box">
+                    <div id="score_bar"></div>
+                    <div id="score_bar2"></div>
+                </div>
             </div>
-            <div class="bar_box">
-                <div id="score_bar">평균학점</div>
-                <div id="score_bar2">나의 학점</div>
-            </div>
-        </div>
-
+        </div>  
         <div class="res-score">
             <div class="score">총점: {{user.score}}점</div>
         </div>
@@ -81,19 +81,20 @@
     {% elif user.score < 8 %}
     <div class="results">
         <div class="title">📜 학교 쫌 다녀봐따 이말이야~ </div><br>
-        <img src="{% static 'image/b+.png' %}" class="grade_img"><br>
-        <div class="verti"></div>
-        <div class="all-bar">
-            <div class="scores">
-                <div id="average_score">{{average_score}}</div>
-                <div id="user_score">{{user.score}}</div>
-            </div>
-            <div class="bar_box">
-                <div id="score_bar">평균학점</div>
-                <div id="score_bar2">나의 학점</div>
+        <div class="scoreandbar">
+            <img src="{% static 'image/b+.png' %}" class="grade_img"><br>
+            <div class="verti"></div>
+            <div class="all-bar">
+                <div class="scores">
+                    <div id="average_score">{{average_score}}</div>
+                    <div id="user_score">{{user.score}}</div>
+                </div>
+                <div class="bar_box">
+                    <div id="score_bar"></div>
+                    <div id="score_bar2"></div>
+                </div>
             </div>
         </div>
-
         <div class="res-score">
             <div class="score">총점: {{user.score}}점</div>
         </div>
@@ -111,19 +112,20 @@
         {% else %}
     <div class="results">
         <div class="title">📜부산대에대한 애교심이 넘쳐흐르는 당신!!! </div><br>
-        <img src="{% static 'image/A+.png' %}" class="grade_img"><br>
-        <div class="verti"></div>
-        <div class="all-bar">
-            <div class="scores">
-                <div id="average_score">{{average_score}}</div>
-                <div id="user_score">{{user.score}}</div>
-            </div>
-            <div class="bar_box">
-                <div id="score_bar">평균학점</div>
-                <div id="score_bar2">나의 학점</div>
+        <div class="scoreandbar">
+            <img src="{% static 'image/A+.png' %}" class="grade_img"><br>
+            <div class="verti"></div>
+            <div class="all-bar">
+                <div class="scores">
+                    <div id="average_score">{{average_score}}</div>
+                    <div id="user_score">{{user.score}}</div>
+                </div>
+                <div class="bar_box">
+                    <div id="score_bar"></div>
+                    <div id="score_bar2"></div>
+                </div>
             </div>
         </div>
-
         <div class="res-score">
             <div class="score">총점: {{user.score}}점</div>
         </div>
