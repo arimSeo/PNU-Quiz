@@ -31,4 +31,7 @@ class PnuUser(models.Model):
 
     class Meta:
         ordering = ['score', 'name']
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7404b85ff3ee0a35850a583e8d18592c48e30cdb
