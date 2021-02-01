@@ -17,17 +17,17 @@
     <div class="big_title">
         부산대학교 탐구영역
     </div>
+    <form action="" method="get">
+    <div class="pnu-name">나는 부산대 <input type="text" name="name" class="txt" placeholder="별명 입력(ex.멋쟁이)"> 입니다.</div>
     <div class="content">
         <div class="discription1">📢 2021 신입생 여러분들 환영합니다!</div>
         <div class="start_btn">
-        {% comment %} input으로 고치고 class넣기 {% endcomment %}
-        {% comment %} <input type='button' value='시작시작 스타투' class="btn" onclick="{% url 'quiz' %}"> {% endcomment %}
-            {% comment %} <a href="/quiz/"><input type='button' value='시작시작 스타투' class="btn" onclick="/quiz/"></a> {% endcomment %}
-            <a href="/quiz/"><button class="btn">올해 나의 학점은? ✏️✏️  </button></a>
+            <input class="btn" type="submit" value="올해 나의 학점은? ✏️✏️" />
         </div>
         <div class="discription2">▷ 문항에 따라 배점이 같습니다.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <div class="discription2">▷ 컨닝하면 F학점 받을지도 몰라요.</div>
     </div>
+    </form>
 
     <div class="warn">※ 시험이 시작되면 구글링을 하지 마시오.</div>
     <div class="made_in">멋쟁이 개발교육청</div>

@@ -1,48 +1,57 @@
-from django.shortcuts import render
-from .models import Question
-from django.core.paginator import Paginator
-
-lst = []
-# answers = Question.objects.all()
-# anslist = []
-
-# for i in answers:
-#     anslist.append(i.answer)
+from django.shortcuts import render, get_object_or_404, redirect
+from .models import Question, PnuUser, Answer
 
 def home(request):
-    lst.clear()
-    return render(request, 'home.html')
+    if request.GET:
+        user = PnuUser()
+        user.name = request.GET['name']           #<input txt > name="name"
+        if request.GET['name'] == "":
+            user.name = "익명"
+        user.save()
+        return redirect("quiz", user.pk)
+    return render(request, "home.html")
 
-def quiz(request):
-    obj = Question.objects.all()
-    count = Question.objects.all().count()
-    paginator = Paginator(obj,1)
-    try:
-        page = int(request.GET.get('page','1'))
-    except:
-        page = 1
-    try:
-        questions = paginator.page(page)
-    except(EmptyPage, Invalidpage):
-        questions = paginator.page(paginator.num_pages)
 
-    return render(request, 'quiz.html', {'obj' : obj, 'questions' : questions, 'count':count, 'lst':lst})
+def quiz(request,pk):
+    user = get_object_or_404(PnuUser, pk=pk)
+    aans=get_object_or_404(Answer)
 
-def result(request):
-    answers = Question.objects.all()
-    anslist = []
-    for i in answers:
-        anslist.append(i.answer)
+    num = 1
+    if request.POST:
+        num = int(request.POST['quiz_id']) + 1          #quiz_id, answer,은 <input name>으로
+        user.answer = ''.join([user.answer, request.POST['answer']])
+        # join([]) -> python문법 : 리스트를 문자열로 변환
+
+        user.save()
+        if request.POST['answer'] == aans.ans[num-2]:    #문제 index 0(1번답) ~
+            user.score += 1
+            user.save()
+
+        if num > 4:     #4문제 기준-> 10문제:10으로 고치기
+            return redirect("result", pk)
         
-    score = 0
-    if len(lst)==len(anslist):
-        for i in range(len(lst)):
-            if lst[i]==anslist[i]:
-                score += 1
-    else:
-        return render(request, 'error.html')
-    return render(request, 'result.html', {'score':score, 'lst':lst, 'anslist':anslist})
+    quiz = get_object_or_404(Question, id=num)      #id값을 문제번호num로
+    
+    return render(request, "quiz.html", {'quiz':quiz})
 
-def save_ans(request):
-    ans = request.GET['ans']
-    lst.append(ans)
+
+def result(request,pk):
+    user = get_object_or_404(PnuUser, pk=pk)
+
+    # 평균 점수 구하기
+    all_user = PnuUser.objects.all()
+    scorelst = []
+    for i in all_user:
+        each_score = i.score
+        scorelst.append(each_score)
+    average_score = round(sum(scorelst)/len(all_user))
+
+    if len(user.answer) == 4:           #4문제 기준!! ->10문제: 10으로 고치기
+        while True:
+            try:
+                pass
+                break
+            except:
+                return render(request, 'error.html')
+    return render(request, "result.html", {"user":user, 'average_score':average_score})
+

@@ -2,84 +2,88 @@
 {% load static %}
 {% block title %}quiz{% endblock %}
 {% block extrahead %}
-    {{ block.super }}
-    <script src="{% static 'script.js' %}"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="{% static 'css/quiz.css' %}">
+{{ block.super }}
+<script src="{% static 'script.js' %}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="{% static 'css/quiz.css' %}">
 {% endblock %}
 
 {% block content %}
-    {{block.super}}
-    <div class="all_page">
-        {{questions.number}}
-    </div>
+{{block.super}}
+<div class="all_page">
+    {{quiz.pk}}
+</div>
 <hr class="line">
 <!-- Qustions -->
+<!-- i를 num으로? js도 고쳐야함-->
 <div class="main_content">
-{% for i in questions %}
-{{lst}}
-    {% if i.img %}
-    <div class="question_in_img">Q : {{i.question}}</div>
-      
-    <img src="{{i.img.url}}" id="question_img">
-    <form class="question_form">
-        <div class="radio-group">
-            <label class="labl-img" for="option1">
-                <input type="radio" name = "name" id='option1' value="{{i.option1}}">
-                <div class="options" >{{i.option1}}</div>
-            </label>
-        <br>
-            <label class="labl-img">
-                <input type="radio" name = "name" id='option2' value="{{i.option2}}">
-                <div class="options" >{{i.option2}}</div>
-            </label> 
-        <br>
-            <label class="labl-img">
-                <input type="radio" name = "name" id='option3' value="{{i.option3}}">
-                <div class="options">{{i.option3}}</div>
-            </label>
-        <br>
-            <label class="labl-img">
-                <input type="radio" name = "name" id='option4' value="{{i.option4}}">
-                <div class="options" >{{i.option4}}</div>
-            </label>
-        </div>
-    </form>
+
+    {% if quiz.img %}
+
+    <div class="question">Q : {{quiz.question}}</div>
+    <img src="{{quiz.img.url}}" id="question_img">
+   
+    <div class="radio-group">
+        <form action="" method="POST" class="quiz_form">
+            {% csrf_token %}
+            <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+            <input type="hidden" name="answer" value="1">
+            <input type="submit" class='options' value="{{ quiz.option1 }}">
+            <!-- <input type="submit" name="name" id='option1' value="{{ quiz.option1 }}"> -->
+            <!-- 뷰.모델 -->
+        </form>
+        <form action="" method="POST" class="quiz_form">
+            {% csrf_token %}
+            <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+            <input type="hidden" name="answer" value="2">
+            <input type="submit" class='options' value="{{ quiz.option2 }}">
+        </form>
+        <form action="" method="POST" class="quiz_form">
+            {% csrf_token %}
+            <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+            <input type="hidden" name="answer" value="3">
+            <input type="submit" class='options' value="{{ quiz.option3 }}">
+        </form>
+        <form action="" method="POST" class="quiz_form">
+            {% csrf_token %}
+            <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+            <input type="hidden" name="answer" value="4">
+            <input type="submit" class='options' value="{{ quiz.option4 }}">
+        </form>
+    </div>
+
     {% else %}
-    <div class="question">Q : {{i.question}}</div>
-    <form class="question_form">
-        <div class="radio-group">    
-            <label class="labl">
-                <input type="radio" name = "name" id='option1' value="{{i.option1}}">
-                <div class="options">{{i.option1}}</div>
-            </label>    
-        <br>   
-            <label class="labl">
-                <input type="radio" name = "name" id='option2' value="{{i.option2}}">
-                <div class="options">{{i.option2}}</div>
-            </label>       
-        <br>   
-            <label class="labl">
-                <input type="radio" name = "name" id='option3' value="{{i.option3}}">
-                <div class="options">{{i.option3}}</div>
-            </label>
-        <br>       
-            <label class="labl">
-                <input type="radio" name = "name" id='option4' value="{{i.option4}}">
-                <div class="options">{{i.option4}}</div>
-            </label>   
-        <br>
-        </div>
-    </form>
+    <div class="question">Q : {{quiz.question}}</div>
+    <div class="radio-group">
+        <form action="" method="POST" class="quiz_form">
+            {% csrf_token %}
+            <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+            <input type="hidden" name="answer" value="1">
+            <input type="submit" class='options' value="{{ quiz.option1 }}">
+            <!-- <input type="submit" name="name" id='option1' value="{{ quiz.option1 }}"> -->
+            <!-- 뷰.모델필드 -->
+        </form>
+        <form action="" method="POST" class="quiz_form">
+            {% csrf_token %}
+            <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+            <input type="hidden" name="answer" value="2">
+            <input type="submit" class='options' value="{{ quiz.option2 }}">
+        </form>
+        <form action="" method="POST" class="quiz_form">
+            {% csrf_token %}
+            <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+            <input type="hidden" name="answer" value="3">
+            <input type="submit" class='options' value="{{ quiz.option3 }}">
+        </form>
+        <form action="" method="POST" class="quiz_form">
+            {% csrf_token %}
+            <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+            <input type="hidden" name="answer" value="4">
+            <input type="submit" class='options' value="{{ quiz.option4 }}">
+        </form>
+    </div>
     {% endif %}
-{% endfor %}        
+    {% comment %} {% endfor %} {% endcomment %}
 </div>
 
-<div class="paginator">
-    {% if questions.has_next %}
-        <a href="?page={{ questions.next_page_number }}" id="save_ans"><button id="next_btn">다음</button></a>
-    {% else %}
-        <a href="/result/" id="save_ans"><button id="submit_btn">답안지 제출</button></a>
-    {% endif %}
-</div>
 {% endblock %}
