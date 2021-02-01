@@ -10211,3 +10211,287 @@ Not Found: /actuator/health
 [pid: 6966|app: 0|req: 2869/2869] 185.239.242.162 () {40 vars in 548 bytes} [Mon Feb  1 03:43:26 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
 [pid: 6966|app: 0|req: 2870/2870] 45.145.185.27 () {40 vars in 546 bytes} [Mon Feb  1 03:47:25 2021] GET / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
 [pid: 6966|app: 0|req: 2871/2871] 35.80.18.129 () {34 vars in 481 bytes} [Mon Feb  1 04:59:50 2021] OPTIONS / => generated 1438 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Feb  1 05:48:43 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a883c65750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55a883c65750 pid: 31797 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31797)
+spawned uWSGI worker 1 (pid: 31799, cores: 1)
+[pid: 31799|app: 0|req: 1/1] 39.7.230.141 () {44 vars in 935 bytes} [Mon Feb  1 05:49:07 2021] GET /admin/ => generated 4782 bytes in 97 msecs (HTTP/1.1 200) 8 headers in 293 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 2/2] 39.7.230.141 () {42 vars in 862 bytes} [Mon Feb  1 05:49:14 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 3/3] 39.7.230.141 () {44 vars in 913 bytes} [Mon Feb  1 05:49:16 2021] GET /?name=aa => generated 0 bytes in 6 msecs (HTTP/1.1 302) 6 headers in 186 bytes (1 switches on core 0)
+Not Found: /quiz/1
+[pid: 31799|app: 0|req: 4/4] 39.7.230.141 () {44 vars in 910 bytes} [Mon Feb  1 05:49:17 2021] GET /quiz/1 => generated 1716 bytes in 17 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 5/5] 39.7.230.141 () {42 vars in 874 bytes} [Mon Feb  1 05:49:21 2021] GET /admin/ => generated 4782 bytes in 22 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 6/6] 39.7.230.141 () {44 vars in 930 bytes} [Mon Feb  1 05:49:25 2021] GET /admin/logout/ => generated 1509 bytes in 23 msecs (HTTP/1.1 200) 9 headers in 392 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 7/7] 39.7.230.141 () {44 vars in 879 bytes} [Mon Feb  1 05:49:26 2021] GET /admin/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 9 headers in 331 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 8/8] 39.7.230.141 () {44 vars in 916 bytes} [Mon Feb  1 05:49:27 2021] GET /admin/login/?next=/admin/ => generated 2194 bytes in 17 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 9/9] 39.7.230.141 () {52 vars in 1110 bytes} [Mon Feb  1 05:49:32 2021] POST /admin/login/?next=/admin/ => generated 2354 bytes in 162 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 10/10] 39.7.230.141 () {52 vars in 1110 bytes} [Mon Feb  1 05:49:40 2021] POST /admin/login/?next=/admin/ => generated 0 bytes in 164 msecs (HTTP/1.1 302) 11 headers in 625 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 11/11] 39.7.230.141 () {46 vars in 966 bytes} [Mon Feb  1 05:49:40 2021] GET /admin/ => generated 8345 bytes in 26 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 12/12] 39.7.230.141 () {44 vars in 940 bytes} [Mon Feb  1 05:49:58 2021] GET /admin/Qapp/answer/ => generated 5485 bytes in 31 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 13/13] 39.7.230.141 () {42 vars in 775 bytes} [Mon Feb  1 05:49:59 2021] GET /admin/jsi18n/ => generated 3187 bytes in 7 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 14/14] 39.7.230.141 () {44 vars in 935 bytes} [Mon Feb  1 05:50:00 2021] GET /admin/ => generated 8345 bytes in 26 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 15/15] 39.7.230.141 () {44 vars in 944 bytes} [Mon Feb  1 05:50:01 2021] GET /admin/Qapp/question/ => generated 8562 bytes in 55 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 16/16] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:50:02 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 17/17] 39.7.230.141 () {44 vars in 935 bytes} [Mon Feb  1 05:50:05 2021] GET /admin/ => generated 8345 bytes in 26 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 18/18] 39.7.230.141 () {44 vars in 940 bytes} [Mon Feb  1 05:50:16 2021] GET /admin/Qapp/answer/ => generated 5485 bytes in 29 msecs (HTTP/1.1 200) 9 headers in 461 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 19/19] 39.7.230.141 () {42 vars in 775 bytes} [Mon Feb  1 05:50:16 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 20/20] 39.7.230.141 () {44 vars in 956 bytes} [Mon Feb  1 05:50:18 2021] GET /admin/Qapp/question/ => generated 8562 bytes in 54 msecs (HTTP/1.1 200) 9 headers in 461 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 21/21] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:50:18 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 22/22] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:50:20 2021] GET /admin/Qapp/question/1/change/ => generated 9755 bytes in 49 msecs (HTTP/1.1 200) 9 headers in 461 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 23/23] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:50:20 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 24/24] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:50:51 2021] POST /admin/Qapp/question/1/change/ => generated 0 bytes in 16 msecs (HTTP/1.1 302) 10 headers in 603 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 25/25] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:50:51 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 54 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 26/26] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:50:51 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 27/27] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:50:54 2021] GET /admin/Qapp/question/2/change/ => generated 9946 bytes in 44 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 28/28] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:50:54 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 29/29] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:51:15 2021] POST /admin/Qapp/question/2/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 30/30] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:51:15 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 55 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 31/31] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:51:16 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 32/32] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:51:17 2021] GET /admin/Qapp/question/3/change/ => generated 9458 bytes in 46 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 33/33] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:51:18 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 34/34] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:51:24 2021] POST /admin/Qapp/question/3/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 35/35] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:51:24 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 55 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 36/36] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:51:24 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 37/37] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:51:26 2021] GET /admin/Qapp/question/4/change/ => generated 9581 bytes in 45 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 38/38] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:51:26 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 39/39] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:51:30 2021] POST /admin/Qapp/question/4/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 40/40] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:51:31 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 57 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 41/41] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:51:31 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 42/42] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:51:34 2021] GET /admin/Qapp/question/5/change/ => generated 9829 bytes in 46 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 43/43] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:51:34 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 44/44] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:51:57 2021] POST /admin/Qapp/question/5/change/ => generated 0 bytes in 15 msecs (HTTP/1.1 302) 10 headers in 603 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 45/45] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:51:57 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 88 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 46/46] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:51:57 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 47/47] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:52:00 2021] GET /admin/Qapp/question/6/change/ => generated 9458 bytes in 44 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 48/48] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:52:00 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 49/49] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:52:10 2021] POST /admin/Qapp/question/6/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 50/50] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:52:10 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 56 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 51/51] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:52:10 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 52/52] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:52:12 2021] GET /admin/Qapp/question/5/change/ => generated 9800 bytes in 45 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 53/53] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:52:13 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 54/54] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:52:15 2021] POST /admin/Qapp/question/5/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 55/55] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:52:15 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 55 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 56/56] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:52:15 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 57/57] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:52:17 2021] GET /admin/Qapp/question/7/change/ => generated 9477 bytes in 45 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 58/58] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:52:18 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 59/59] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:52:26 2021] POST /admin/Qapp/question/7/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 60/60] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:52:26 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 56 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 61/61] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:52:26 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 62/62] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:52:36 2021] GET /admin/Qapp/question/8/change/ => generated 9565 bytes in 45 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 63/63] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:52:37 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 64/64] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:52:58 2021] POST /admin/Qapp/question/8/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 65/65] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:52:58 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 55 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 66/66] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:52:58 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 67/67] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:53:00 2021] GET /admin/Qapp/question/7/change/ => generated 9469 bytes in 44 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 68/68] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:53:01 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 69/69] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:53:17 2021] POST /admin/Qapp/question/7/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 70/70] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:53:17 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 56 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 71/71] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:53:17 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 72/72] 39.7.230.141 () {44 vars in 976 bytes} [Mon Feb  1 05:53:19 2021] GET /admin/Qapp/question/9/change/ => generated 9474 bytes in 46 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 73/73] 39.7.230.141 () {42 vars in 786 bytes} [Mon Feb  1 05:53:20 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 74/74] 39.7.230.141 () {52 vars in 1239 bytes} [Mon Feb  1 05:53:32 2021] POST /admin/Qapp/question/9/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 603 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 75/75] 39.7.230.141 () {46 vars in 1230 bytes} [Mon Feb  1 05:53:32 2021] GET /admin/Qapp/question/ => generated 8769 bytes in 54 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 76/76] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:53:32 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 77/77] 39.7.230.141 () {44 vars in 978 bytes} [Mon Feb  1 05:53:34 2021] GET /admin/Qapp/question/10/change/ => generated 9903 bytes in 46 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 78/78] 39.7.230.141 () {42 vars in 787 bytes} [Mon Feb  1 05:53:34 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 79/79] 39.7.230.141 () {52 vars in 1242 bytes} [Mon Feb  1 05:55:39 2021] POST /admin/Qapp/question/10/change/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 10 headers in 605 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 80/80] 39.7.230.141 () {46 vars in 1233 bytes} [Mon Feb  1 05:55:39 2021] GET /admin/Qapp/question/ => generated 8771 bytes in 55 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 81/81] 39.7.230.141 () {42 vars in 777 bytes} [Mon Feb  1 05:55:40 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 82/82] 39.7.230.141 () {44 vars in 954 bytes} [Mon Feb  1 05:55:44 2021] GET /admin/Qapp/answer/ => generated 5485 bytes in 30 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 83/83] 39.7.230.141 () {42 vars in 775 bytes} [Mon Feb  1 05:55:45 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 84/84] 39.7.230.141 () {44 vars in 960 bytes} [Mon Feb  1 05:55:48 2021] GET /admin/Qapp/answer/add/ => generated 6124 bytes in 31 msecs (HTTP/1.1 200) 9 headers in 461 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 85/85] 39.7.230.141 () {42 vars in 779 bytes} [Mon Feb  1 05:55:48 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 86/86] 39.7.230.141 () {52 vars in 1146 bytes} [Mon Feb  1 05:55:58 2021] POST /admin/Qapp/answer/add/ => generated 0 bytes in 13 msecs (HTTP/1.1 302) 10 headers in 589 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 87/87] 39.7.230.141 () {46 vars in 1207 bytes} [Mon Feb  1 05:55:59 2021] GET /admin/Qapp/answer/ => generated 6849 bytes in 40 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 88/88] 39.7.230.141 () {42 vars in 775 bytes} [Mon Feb  1 05:55:59 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 89/89] 39.7.230.141 () {44 vars in 954 bytes} [Mon Feb  1 05:56:01 2021] GET /admin/Qapp/pnuuser/ => generated 6644 bytes in 39 msecs (HTTP/1.1 200) 9 headers in 461 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 90/90] 39.7.230.141 () {42 vars in 776 bytes} [Mon Feb  1 05:56:02 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 91/91] 39.7.230.141 () {44 vars in 973 bytes} [Mon Feb  1 05:56:04 2021] GET /admin/Qapp/pnuuser/1/change/ => generated 7287 bytes in 40 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 92/92] 39.7.230.141 () {42 vars in 785 bytes} [Mon Feb  1 05:56:04 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 93/93] 39.7.230.141 () {44 vars in 982 bytes} [Mon Feb  1 05:56:06 2021] GET /admin/Qapp/pnuuser/1/delete/ => generated 5435 bytes in 24 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 94/94] 39.7.230.141 () {52 vars in 1162 bytes} [Mon Feb  1 05:56:09 2021] POST /admin/Qapp/pnuuser/1/delete/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 10 headers in 530 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 95/95] 39.7.230.141 () {46 vars in 1155 bytes} [Mon Feb  1 05:56:09 2021] GET /admin/Qapp/pnuuser/ => generated 5650 bytes in 31 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 96/96] 39.7.230.141 () {42 vars in 776 bytes} [Mon Feb  1 05:56:09 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 97/97] 39.7.230.141 () {44 vars in 929 bytes} [Mon Feb  1 05:56:11 2021] GET /admin/ => generated 7703 bytes in 43 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 98/98] 39.7.230.141 () {44 vars in 886 bytes} [Mon Feb  1 05:56:13 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 99/99] 39.7.230.141 () {44 vars in 911 bytes} [Mon Feb  1 05:56:18 2021] GET /?name=a => generated 0 bytes in 7 msecs (HTTP/1.1 302) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 100/100] 39.7.230.141 () {44 vars in 910 bytes} [Mon Feb  1 05:56:18 2021] GET /quiz/2 => generated 2963 bytes in 8 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 101/101] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 05:56:23 2021] POST /quiz/2 => generated 3348 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 102/102] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 05:56:26 2021] POST /quiz/2 => generated 2866 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 103/103] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 05:56:28 2021] POST /quiz/2 => generated 2981 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 104/104] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 05:56:29 2021] POST /quiz/2 => generated 0 bytes in 8 msecs (HTTP/1.1 302) 6 headers in 188 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 105/105] 39.7.230.141 () {46 vars in 951 bytes} [Mon Feb  1 05:56:29 2021] GET /result/2 => generated 2489 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 106/106] 39.7.230.141 () {42 vars in 862 bytes} [Mon Feb  1 05:56:40 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 107/107] 39.7.230.141 () {44 vars in 893 bytes} [Mon Feb  1 06:01:37 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 31799|app: 0|req: 108/108] 39.7.230.141 () {44 vars in 913 bytes} [Mon Feb  1 06:01:41 2021] GET /?name=bb => generated 0 bytes in 6 msecs (HTTP/1.1 302) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 109/109] 39.7.230.141 () {44 vars in 910 bytes} [Mon Feb  1 06:01:41 2021] GET /quiz/3 => generated 2963 bytes in 7 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 110/110] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:01:44 2021] POST /quiz/3 => generated 3348 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 111/111] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:01:45 2021] POST /quiz/3 => generated 2866 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 112/112] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:01:47 2021] POST /quiz/3 => generated 2981 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 113/113] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:01:48 2021] POST /quiz/3 => generated 0 bytes in 13 msecs (HTTP/1.1 302) 6 headers in 188 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 114/114] 39.7.230.141 () {46 vars in 951 bytes} [Mon Feb  1 06:01:48 2021] GET /result/3 => generated 2490 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31799|app: 0|req: 115/115] 39.7.230.141 () {44 vars in 886 bytes} [Mon Feb  1 06:02:03 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Feb  1 06:02:18 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5618f814d740
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5618f814d740 pid: 31885 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31885)
+spawned uWSGI worker 1 (pid: 31887, cores: 1)
+[pid: 31887|app: 0|req: 1/1] 39.7.230.141 () {44 vars in 913 bytes} [Mon Feb  1 06:02:28 2021] GET /?name=bb => generated 0 bytes in 32 msecs (HTTP/1.1 302) 6 headers in 186 bytes (2 switches on core 0)
+[pid: 31887|app: 0|req: 2/2] 39.7.230.141 () {44 vars in 910 bytes} [Mon Feb  1 06:02:29 2021] GET /quiz/4 => generated 2963 bytes in 35 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 3/3] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:02:31 2021] POST /quiz/4 => generated 3348 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 4/4] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:02:32 2021] POST /quiz/4 => generated 2866 bytes in 18 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 5/5] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:02:34 2021] POST /quiz/4 => generated 2981 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (2 switches on core 0)
+[pid: 31887|app: 0|req: 6/6] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:02:36 2021] POST /quiz/4 => generated 0 bytes in 14 msecs (HTTP/1.1 302) 6 headers in 188 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 7/7] 39.7.230.141 () {46 vars in 951 bytes} [Mon Feb  1 06:02:36 2021] GET /result/4 => generated 2490 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 8/8] 39.7.230.141 () {42 vars in 862 bytes} [Mon Feb  1 06:04:27 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 31887|app: 0|req: 9/9] 39.7.230.141 () {44 vars in 915 bytes} [Mon Feb  1 06:04:29 2021] GET /?name=bbb => generated 0 bytes in 6 msecs (HTTP/1.1 302) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 10/10] 39.7.230.141 () {44 vars in 910 bytes} [Mon Feb  1 06:04:29 2021] GET /quiz/5 => generated 2963 bytes in 7 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 11/11] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:04:32 2021] POST /quiz/5 => generated 3348 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (2 switches on core 0)
+[pid: 31887|app: 0|req: 12/12] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:04:34 2021] POST /quiz/5 => generated 2866 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (2 switches on core 0)
+[pid: 31887|app: 0|req: 13/13] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:04:35 2021] POST /quiz/5 => generated 2981 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 14/14] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:04:36 2021] POST /quiz/5 => generated 0 bytes in 8 msecs (HTTP/1.1 302) 6 headers in 188 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 15/15] 39.7.230.141 () {46 vars in 951 bytes} [Mon Feb  1 06:04:36 2021] GET /result/5 => generated 2491 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Feb  1 06:04:46 2021] ***
+compiled with version: 7.5.0 on 26 January 2021 09:38:07
+os: Linux-5.4.0-1029-aws #30~18.04.1-Ubuntu SMP Tue Oct 20 11:09:25 UTC 2020
+nodename: ip-172-31-15-245
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/PNU-Quiz/Project
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/PNU-Quiz/Project/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/PNU-Quiz/Project
+your processes number limit is 3802
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/PNU-Quiz/Project/uwsgi.sock fd 3
+Python version: 3.6.9 (default, Oct  8 2020, 12:12:24)  [GCC 8.4.0]
+Set PythonHome to /home/ubuntu/PNU-Quiz/Project/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5572255a6750
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+d*b82)-uh%$rj2_d#*b%eq+nyt2y(n1w2hn284(ecyi2aoh@)j
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5572255a6750 pid: 31944 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31944)
+spawned uWSGI worker 1 (pid: 31946, cores: 1)
+[pid: 31946|app: 0|req: 1/1] 39.7.230.141 () {42 vars in 862 bytes} [Mon Feb  1 06:04:58 2021] GET / => generated 1591 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 31946|app: 0|req: 2/2] 39.7.230.141 () {44 vars in 893 bytes} [Mon Feb  1 06:05:00 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 3/3] 39.7.230.141 () {44 vars in 893 bytes} [Mon Feb  1 06:05:00 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 4/4] 39.7.230.141 () {44 vars in 913 bytes} [Mon Feb  1 06:05:02 2021] GET /?name=gg => generated 0 bytes in 20 msecs (HTTP/1.1 302) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 5/5] 39.7.230.141 () {44 vars in 910 bytes} [Mon Feb  1 06:05:03 2021] GET /quiz/6 => generated 2963 bytes in 19 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 6/6] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:05 2021] POST /quiz/6 => generated 3348 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 7/7] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:06 2021] POST /quiz/6 => generated 2866 bytes in 18 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 8/8] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:07 2021] POST /quiz/6 => generated 2981 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 9/9] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:09 2021] POST /quiz/6 => generated 3037 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 10/10] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:12 2021] POST /quiz/6 => generated 2860 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (2 switches on core 0)
+[pid: 31946|app: 0|req: 11/11] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:14 2021] POST /quiz/6 => generated 2876 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 12/12] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:15 2021] POST /quiz/6 => generated 2961 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (2 switches on core 0)
+[pid: 31946|app: 0|req: 13/13] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:23 2021] POST /quiz/6 => generated 2863 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 14/14] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:24 2021] POST /quiz/6 => generated 3172 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 15/15] 39.7.230.141 () {52 vars in 1098 bytes} [Mon Feb  1 06:05:34 2021] POST /quiz/6 => generated 0 bytes in 12 msecs (HTTP/1.1 302) 6 headers in 188 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 16/16] 39.7.230.141 () {46 vars in 951 bytes} [Mon Feb  1 06:05:34 2021] GET /result/6 => generated 2756 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 17/17] 39.7.230.141 () {46 vars in 951 bytes} [Mon Feb  1 06:08:23 2021] GET /result/6 => generated 2756 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+[pid: 31946|app: 0|req: 18/18] 39.7.24.76 () {42 vars in 818 bytes} [Mon Feb  1 06:08:54 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 31946|app: 0|req: 19/19] 39.7.24.76 () {42 vars in 756 bytes} [Mon Feb  1 06:08:56 2021] GET /favicon.ico => generated 2620 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 20/20] 39.7.24.76 () {44 vars in 865 bytes} [Mon Feb  1 06:08:56 2021] GET /?name= => generated 0 bytes in 5 msecs (HTTP/1.1 302) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 21/21] 39.7.24.76 () {44 vars in 866 bytes} [Mon Feb  1 06:08:56 2021] GET /quiz/7 => generated 2963 bytes in 7 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 22/22] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:08:59 2021] POST /quiz/7 => generated 3348 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 23/23] 39.7.230.141 () {42 vars in 819 bytes} [Mon Feb  1 06:09:06 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 31946|app: 0|req: 24/24] 39.7.230.141 () {42 vars in 771 bytes} [Mon Feb  1 06:09:07 2021] GET /favicon.ico => generated 2620 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 25/25] 39.7.230.141 () {44 vars in 866 bytes} [Mon Feb  1 06:09:13 2021] GET /?name= => generated 0 bytes in 7 msecs (HTTP/1.1 302) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 26/26] 39.7.230.141 () {44 vars in 867 bytes} [Mon Feb  1 06:09:13 2021] GET /quiz/8 => generated 2963 bytes in 8 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 27/27] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:18 2021] POST /quiz/8 => generated 3348 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 28/28] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:33 2021] POST /quiz/8 => generated 2866 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (2 switches on core 0)
+[pid: 31946|app: 0|req: 29/29] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:34 2021] POST /quiz/8 => generated 2981 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 30/30] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:36 2021] POST /quiz/8 => generated 3037 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 31/31] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:38 2021] POST /quiz/8 => generated 2860 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 32/32] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:39 2021] POST /quiz/8 => generated 2876 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 33/33] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:09:40 2021] POST /quiz/7 => generated 2866 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 34/34] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:09:42 2021] POST /quiz/7 => generated 2981 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 35/35] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:09:44 2021] POST /quiz/7 => generated 3037 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 36/36] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:45 2021] POST /quiz/8 => generated 2961 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 37/37] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:47 2021] POST /quiz/8 => generated 2863 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 38/38] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:48 2021] POST /quiz/8 => generated 3172 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (2 switches on core 0)
+[pid: 31946|app: 0|req: 39/39] 39.7.230.141 () {54 vars in 1144 bytes} [Mon Feb  1 06:09:50 2021] POST /quiz/8 => generated 0 bytes in 12 msecs (HTTP/1.1 302) 6 headers in 188 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 40/40] 39.7.230.141 () {48 vars in 997 bytes} [Mon Feb  1 06:09:50 2021] GET /result/8 => generated 2760 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 41/41] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:09:53 2021] POST /quiz/7 => generated 2860 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 42/42] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:09:54 2021] POST /quiz/7 => generated 2876 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 43/43] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:09:56 2021] POST /quiz/7 => generated 2961 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 44/44] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:09:59 2021] POST /quiz/7 => generated 2863 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 45/45] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:10:06 2021] POST /quiz/7 => generated 3172 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 349 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 46/46] 39.7.230.141 () {46 vars in 952 bytes} [Mon Feb  1 06:10:07 2021] GET / => generated 1591 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 47/47] 39.7.24.76 () {54 vars in 1143 bytes} [Mon Feb  1 06:10:11 2021] POST /quiz/7 => generated 0 bytes in 13 msecs (HTTP/1.1 302) 6 headers in 188 bytes (2 switches on core 0)
+[pid: 31946|app: 0|req: 48/48] 39.7.24.76 () {48 vars in 996 bytes} [Mon Feb  1 06:10:11 2021] GET /result/7 => generated 2758 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 49/49] 39.7.230.141 () {42 vars in 898 bytes} [Mon Feb  1 06:10:25 2021] GET /admin/ => generated 7703 bytes in 44 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 50/50] 39.7.230.141 () {44 vars in 942 bytes} [Mon Feb  1 06:10:29 2021] GET /admin/Qapp/pnuuser/ => generated 7859 bytes in 58 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 51/51] 39.7.230.141 () {42 vars in 776 bytes} [Mon Feb  1 06:10:30 2021] GET /admin/jsi18n/ => generated 3187 bytes in 6 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 52/52] 39.7.230.141 () {44 vars in 973 bytes} [Mon Feb  1 06:10:35 2021] GET /admin/Qapp/pnuuser/8/change/ => generated 7315 bytes in 43 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 53/53] 39.7.230.141 () {42 vars in 785 bytes} [Mon Feb  1 06:10:36 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+Not Found: /config/getuser
+[pid: 31946|app: 0|req: 54/54] 185.224.129.247 () {40 vars in 652 bytes} [Mon Feb  1 06:11:12 2021] GET /config/getuser?index=0 => generated 2640 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 55/55] 39.7.230.141 () {44 vars in 938 bytes} [Mon Feb  1 06:11:13 2021] GET /admin/ => generated 7703 bytes in 25 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 56/56] 39.7.230.141 () {44 vars in 942 bytes} [Mon Feb  1 06:11:15 2021] GET /admin/Qapp/pnuuser/ => generated 7859 bytes in 51 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 31946|app: 0|req: 57/57] 39.7.230.141 () {42 vars in 776 bytes} [Mon Feb  1 06:11:15 2021] GET /admin/jsi18n/ => generated 3187 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
