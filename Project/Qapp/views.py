@@ -46,7 +46,7 @@ def result(request,pk):
         scorelst.append(each_score)
     average_score = round(sum(scorelst)/len(all_user))
 
-    if len(user.answer) == 4:           #4문제 기준!! ->10문제: 10으로 고치기
+    if len(user.answer) == 10:           #4문제 기준!! ->10문제: 10으로 고치기
         while True:
             try:
                 pass
