@@ -1,7 +1,7 @@
 window.onload = initall;
 
 function initall() {
-    $(".result_content").hide();
+    // $(".result_content").hide();
     setTimeout(function () {
         $(".loading").fadeOut(400);
         $(".result_content").fadeIn(4000);

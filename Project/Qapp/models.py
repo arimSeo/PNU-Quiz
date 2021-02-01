@@ -13,8 +13,6 @@ class Question(models.Model):
     option4 = models.CharField(max_length=100)
     
     img = models.ImageField(max_length=100, null=True, blank=True)
-
-    answer = models.CharField(max_length=100)   #admin answer에 1234로 번호로 바꿔야함???
     
     def __str__(self):
         # return self.question
@@ -33,3 +31,4 @@ class PnuUser(models.Model):
 
     class Meta:
         ordering = ['score', 'name']
+

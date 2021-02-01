@@ -19,10 +19,7 @@ def quiz(request,pk):
     num = 1
     if request.POST:
         num = int(request.POST['quiz_id']) + 1          #quiz_id, answer,은 <input name>으로
-        user.answer = ''.join([user.answer, request.POST['answer']])
-        # join([]) -> python문법 : 리스트를 문자열로 변환
-
-        user.save()
+        user.answer = user.answer + request.POST['answer']
         if request.POST['answer'] == aans.ans[num-2]:    #문제 index 0(1번답) ~
             user.score += 1
             user.save()
@@ -46,7 +43,7 @@ def result(request,pk):
         scorelst.append(each_score)
     average_score = round(sum(scorelst)/len(all_user))
 
-    if len(user.answer) == 10:           #4문제 기준!! ->10문제: 10으로 고치기
+    if len(user.answer) == 4:
         while True:
             try:
                 pass
