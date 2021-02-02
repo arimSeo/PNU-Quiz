@@ -20,6 +20,7 @@ def quiz(request,pk):
     if request.POST:
         num = int(request.POST['quiz_id']) + 1          #quiz_id, answer,은 <input name>으로
         user.answer = user.answer + request.POST['answer']
+        user.save()     #해야지 전체 답안지(숫자리스트)가 나옴-지우면 틀린답은 안나옴..
         if request.POST['answer'] == aans.ans[num-2]:    #문제 index 0(1번답) ~
             user.score += 1
             user.save()
@@ -43,7 +44,7 @@ def result(request,pk):
         scorelst.append(each_score)
     average_score = round(sum(scorelst)/len(all_user))
 
-    if len(user.answer) == 4:
+    if len(user.answer) == 10:       #4문제 기준-> 10문제:10으로 고치기
         while True:
             try:
                 pass

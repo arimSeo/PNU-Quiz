@@ -15,7 +15,6 @@
 </div>
 <hr class="line">
 <!-- Qustions -->
-<!-- i를 num으로? js도 고쳐야함-->
 <div class="main_content">
 
     {% if quiz.img %}
@@ -29,8 +28,6 @@
             <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
             <input type="hidden" name="answer" value="1">
             <input type="submit" class='options' value="{{ quiz.option1 }}">
-            <!-- <input type="submit" name="name" id='option1' value="{{ quiz.option1 }}"> -->
-            <!-- 뷰.모델 -->
         </form>
         <form action="" method="POST" class="quiz_form">
             {% csrf_token %}
@@ -60,7 +57,6 @@
             <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
             <input type="hidden" name="answer" value="1">
             <input type="submit" class='options' value="{{ quiz.option1 }}">
-            <!-- <input type="submit" name="name" id='option1' value="{{ quiz.option1 }}"> -->
             <!-- 뷰.모델필드 -->
         </form>
         <form action="" method="POST" class="quiz_form">
@@ -83,7 +79,6 @@
         </form>
     </div>
     {% endif %}
-    {% comment %} {% endfor %} {% endcomment %}
 </div>
 
 {% endblock %}
