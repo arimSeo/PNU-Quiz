@@ -44,11 +44,12 @@
 }
     
 .user{
-    margin:1% 30% 0% 30%;
+    line-height: 22px;
+    /* margin:1% 30% 0% 30%; */
     font-size: large;
-    color: rgb(179, 20, 20);
     text-align: center;
-    border:1.5px double;
+    color: rgb(179, 20, 20);
+    /* border:1.5px double; */
     padding:1% 2% 1% 2%;
     display:block;
     /* background-image: url("Project/Qapp/static/image/back.JPG"); */
@@ -61,29 +62,39 @@
 .comment{
     background-color: #ececec;
     border:2px solid rgb(92, 80, 80);
-    margin:1% 20% 3% 20%;
+    margin:1% 20% 1% 20%;
     padding:2% 2% 2% 2%;
     line-height: 25px;
 }
 
-.grade_img{
+/* .grade_img{
     width: 20%;
     height: 20%;
     margin: 1% 30% 1% 0%;
     display:inline-block;
+} */
+.grade_img{
+    width: 25%;
+    height: 25%;
+    margin: 3% 50% -2% 0%;
+    display:inline-block;
 }
+
 
 .title{
     text-align: center;
     margin-top: 1.6%;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
     font-weight: bold;
     font-size: 1.8rem;
 }
 
 .scoreandbar{
-    margin-top: -1%;
     text-align: center;
+    border:2px solid rgba(46, 42, 42, 0.164);
+    border-radius:15px;
+    margin:0% 20% 0 20%;
+    padding-bottom: 0.8%;
 }
 
 .score{
@@ -126,16 +137,20 @@
     margin-top : 2%;
 }
 
-.verti{
-    margin:-22% 0 0% 50%;
+/* .verti{
+    margin:-24% 0 0% 50%;
     height:300px;
     border-left: 2px solid rgba(46, 42, 42, 0.164);
-    /* position: relative; */
+} */
+.verti{
+    margin:-26% 0 0% 50%;
+    height:220px;
+    border-left: 2px solid rgba(46, 42, 42, 0.164);
 }
 
 
 .all-bar{
-    margin:-15% 0% 10% 41%;
+    margin:-17% 0% 10% 41%;
 }
 
 .bar_box {
@@ -148,9 +163,10 @@
     
 #score_bar, #score_bar2 {
     height: 20px;
-    border-radius: 5px;
+    border-radius:5px;
     margin: 5% 0% 2% 0%;
-    padding: 4% 0 1.5% 4%;
+    padding: 4.5% 0 1.5% 4%;
+    text-align: left;
 }
 
 #score_bar{
@@ -173,11 +189,12 @@
 #re_btn{
     border-radius: 5px;
     border: 0.5px solid #c9c6c6;
-    padding: 0.4% 1.5% 0.4% 1.5%;
-    margin-top: 1%;
+    padding: 0.7% 2% 0.7% 2%;
+    margin-top:1%;
+    margin-bottom: 1%;
     background-color: #DEDEDE;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
 }
@@ -226,18 +243,14 @@
         margin-bottom: 4%;
     }
 
-    /* .results{
-        text-align: center;
-    } */
-
     .grade_img{
         width: 30%;
         height: 30%;
-        margin: 0% 55% 1% 0%;
+        margin: 1% 55% -1% 0%;
     }
     .verti{
         margin:-29% 0% 0% 43%;
-        height:85px;
+        height:100px;
         border-left: 2px solid rgba(46, 42, 42, 0.164);
         position: relative;
         /* display:inline-block; */
@@ -245,7 +258,7 @@
     
 
     .title{
-        margin: 4.5% 0 2% 0;
+        margin: 4% 0 2% 0;
         font-weight: bold;
         /* display: inline-block; */
         font-size: 1rem;
@@ -253,12 +266,13 @@
     }
 
     .scoreandbar{
-        margin: -5% 0 8% 0;
+        margin: -2% 0 9% 0;
         text-align: center;
+        border:hidden;
     }
 
     .all-bar{
-        margin:-24% 0% 0% 20%;
+        margin:-25.5% 0% 0% 15%;
     }
     .bar_box {
         width: 45%;
@@ -266,13 +280,14 @@
         font-size: 0.8rem;
         /* margin: 0 auto; */
         margin-left: 40%;
+        margin-top:-1%;
     }
-        
     #score_bar, #score_bar2 {
         /* height: 20px; */
         border-radius: 5px;
-        margin: 7% 0% 2% 0%;
-        padding: 6% 0 0% 10%;
+        margin: 7% 0% 1% 0%;
+        padding: 4% 0 -2% 10%;
+        text-align: left;
     }
 
     .score{
@@ -283,16 +298,17 @@
         text-align:center;
         font-size: 0.7rem;
         display: inline-block;
-        margin-top: 1%;
+        margin-top: 1.5%;
         /* font-weight: bold; */
     }
 
     .comment{
         background-color: #ececec;
         border:2px solid rgb(92, 80, 80);
-        margin:2% 5% 3% 5%;
+        margin:2.5% 5% 2% 5%;
         padding:2% 2% 2% 2%;
-        line-height: 25px;
+        line-height: 30px;
+        font-size: 0.9rem;
     }
 
     .fun_img{
@@ -312,23 +328,24 @@
     }
 
     .user{
-        margin:1% 20% 0% 20%;
-        font-size: large;
+        /* margin:1% 20% 0% 20%; */
+        margin:1% 0 1% 0;
+        font-size: small;
         color: rgb(179, 20, 20);
         text-align: center;
-        border:1.5px double;
+        /* border:1.5px double; */
         /* width:70%; */
-        padding:1% 2% 1% 2%;
+        /* padding:1% 2% 1% 2%; */
         display:block;
     }
 
     #re_btn{
         border-radius: 5px;
-        margin:2% 0 2% 0;
+        margin:2% 0 4% 0;
         text-align: center;
         font-size: 0.9rem;
         cursor: pointer;
-        padding: 0.6% 2.2% 0.6% 2.2%;
+        padding: 1.2% 4% 1.2% 4%;
     }
 
 }

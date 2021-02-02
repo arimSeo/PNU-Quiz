@@ -5,6 +5,7 @@
 {{ block.super }}
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="{% static 'result.js' %}"></script>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
     <link rel="stylesheet" href="{% static 'css/result.css' %}">
 {% endblock %}
 
@@ -17,7 +18,7 @@
 </div>
 <div class="result_content">
 
-    <div class="user">부산대 <span class="name">{{user.name}}</span> 님의 성적표 </div>
+    <div class="user">🏆부산대 <span class="name">{{user.name}}</span> 님의 성적표 🏆</div>
     
     {% if user.score < 2 %}
     <div class="results">
@@ -41,19 +42,20 @@
         </div>
     </div> 
         <div class="comment">
-            교수님이 출석부르시다가 억장와르르 무너지는 소리가 금정산까지 울려퍼지네요..ㅠ<br>
-            하지만 너무 자책하지 말아요~ 본인 마음 한 구석에 재수와 반수라는 새로운 배움의 장의 기회를 노리고 있을지도 모르잖아요??
-            .... 부디.. 좋은곳으로 가길...(아디오스-☆)<br>
+        &nbsp;📌Type. <br>
+            교수님이 출석부르시다가 억장 와르르 무너지는 소리가 금정산까지 울려퍼지네요..ㅠ<br>
+            하지만 너무 자책하지 말아요~ 본인 마음 한 구석에 재수와 반수라는 새로운 배움의 장의 기회를 노리고 있을지도 모르잖아요??<br>
+            .... 부디.. 좋은 곳으로 가길... (아듀-⭐)<br>
         </div>
         <div class="comment">
             💡Tip1) 공강이 무조건 좋은 건 아니다.<br>
             카페, 피씨방, 당구장 가는 것도 1달이면 지겹다!<br>
             3,4시간 정도의 우주 공강은... 가급적 피하는게 상책~<br>
-            본인이 장거리 통학인지, 자취인지, 기숙사인지를 고려해 강의 시간을 배분하도록 하자.<br>
+            본인이 장거리 통학인지, 자취인지, 기숙사인지를 고려해 강의 시간을 배분하도록 하자🕒<br>
         </div>
         <div class="comment">
             💡Tip2) 신입생 OT는 신입생 수강신청일 근처에 진행된다.<br>
-            나만 단톡 못들어간거 아니야?? ㄴㄴ<br>
+            나만 단톡 못들어간거 아니야??🙅‍♀️ ㄴㄴㄴ<br>
             다들 그 생각중이다! 조금 기다리면 연락이 올테니 걱정 마시라~~
         </div>
         <img src="{% static 'image/에프.png' %}" class="fun_img"><br>
@@ -61,7 +63,7 @@
 
     {% elif user.score < 5 %}
     <div class="results">
-        <div class="title">📜 자 이제 시작이야~ </div><br>
+        <div class="title"> [ &nbsp; 자 이제 시작이야~ &nbsp;] </div><br>
         <div class="scoreandbar">
             <img src="{% static 'image/c+.png' %}" class="grade_img"><br>
             <div class="verti"></div>
@@ -82,24 +84,25 @@
 
     </div> 
         <div class="comment">
-            : 흠흠... 이제 부산대학교에 갓 입학한,, 갓김치 처럼 파룻파룻한 새내기시군요~!🙌<br>
-            부산대학교 입학을 축하드리고, 절대 지금 이 학점을 받았다고 슬퍼하지는 말아요~<br>
-            더 낮은 학점이 기다리고 있을지도 모르니까요~~??? (찡긋^_<)<br>
+        &nbsp;📌Type. <br>
+            흠흠... 이제 부산대학교에 갓 입학한,, 갓김치 처럼 파룻파룻한 새내기시군요~!🙌<br>
+            부산대학교 입학을 축하드리고, 절대 지금 이 학점을 받았다고 슬퍼하지는 말아요~ (찡긋^_<)<br>
+            더 낮은 학점이 기다리고 있을지도 모르니까요~??<br>
         </div>
         <div class="comment">
             💡Tip1) 교양필수 과목 체크는 필수!⭐<br>
             부산대에는 졸업 전까지 들어야 하는 교양필수 과목이 존재한다.<br>
             이는 단과대별, 교육과정별로 달라지기 때문에..<br>
-            반드시 선배님 혹은 과사에 문의해 알아두도록~<br>
+            반드시 본인 학과의 교과과정표 확인 or 선배님과의 깊은 대화를 통해 알아두도록~<br>
         </div>
         <div class="comment">
-            💡Tip2) 중도? 새도? 건도?<br>
-            들어도 들어도 헷갈리는 도서관 이름!<br>
-            오늘부로 정리한다.<br>
-            ◾중앙도서관(중도) - 산골짜기 맨 위 책빌리는 곳<br>
+            💡Tip2) 중도? 새도? 건도?📖<br>
+            들어도 들어도 헷갈리는 도서관 위치!<br>
+            오늘부로 정리한다.📝<br>
+            ◾중앙도서관(중도) - 산골짜기 맨 위에 책 빌리는 곳<br>
             ◾새벽벌 도서관(새도) - 순버(순환버스)에서 사람들 제일 많이 내리는 곳<br>
             ◾건설관 도서관(건도) - 건설관 3층이랑 연결된 '미리내 열람실'을 말하며, 이번에 리모델링 해서 곧 오픈 한다는 소식!<br>
-            (사실, 본 개발자도 개발만 하느라... 별로 가본적이 없다는 건 안비밀!😉 헤헷)
+            (사실, 본 개발자도 개발만 하느라...💻 별로 가본적 없다는 건 안비밀!😉 헤헷)
         </div>
         <img src="{% static 'image/재수강.jpg' %}" class="fun_img"><br>
      
@@ -126,29 +129,31 @@
         </div>
     </div>
         <div class="comment">
-            : (조심스럽게) 혹싀,,,,,,, 20학번인가 자네,,,,??
-            잠만 눈물 좀 닦고..
-            이 학교가 올해따라 내꺼인듯 내꺼아닌 니꺼같은 첫 1년을 마치고
-            헌내기가 된 20학번 친구들이라면 본 개발자는 여러분들이 이정도도 아주 훌륭하게 잘 맞추었다고 생각한다!
-            얼른 이 시국에서 벗어나 모두가 건강한 학교 생활을 할 수 있길... 
+        &nbsp;📌Type. <br>
+            : (조심스럽게) 혹싀,,,,, 20학번인가 자네,,??<br>
+            🤦‍♀️🤦‍잠만 눈물 좀 닦고..<br>
+            이 학교가 시국따라 내꺼인듯 내꺼아닌 니꺼같은 첫 1년을 마치고,
+            헌내기가 된 20학번 친구들이라면 본 개발자는 여러분들이 이정도도 아주 훌륭하게 잘 맞추었다고 생각한다!<br>
+            얼른 이 시국에서 벗어나 모두가 건강한 학교 생활을 할 수 있길...🙏
         </div>
         <div class="comment">
-            💡Tip1) 건물간 이동 팁.<br>
-            6~700번대 건물은 경사가 매써우니 시간표짤때 유의할 것!<br>
+            💡Tip1) 건물간 이동시에 팁! <br>
+            6~700번대 건물은 경사가 매써우니 시간표 짤 때 유의하자!<br>
             순버(순환버스)가 있지만 항상 사람으로 그득하니 400번대 미만은 안 타는것이
-            몸과 정신건강 모두에 이롭다고 하니 참!고! 하시라~
+            몸과 정신건강 모두에 이롭다고 하니 참고 하시라~
         </div>
         <div class="comment">
-           💡Tip2) 뭐하징
+            💡Tip2) 통학러들을 위한 팁! 빠밤-☆<br>
+            지하철은 1-3 또는 4-3번 문으로 타야지 내릴때 바로 계단이 맞이해줘 
+            빠르게 순버run 할 수 있다구~!🚌🏃‍♂️<br>
+            혹싀...옆에서 같이 달리고 있는 본 개발자를 만난다면, 반갑게 인사해 주라주라~^^👋
         </div>
-        
-
         <img src="{% static 'image/비쁠.png' %}" class="fun_img"><br>
    
 
         {% else %}
     <div class="results">
-        <div class="title">📜부산대에대한 애교심이 넘쳐흐르는 당신!!! </div><br>
+        <div class="title">📜부산대를 향한 애교심이 넘쳐 흐르는 당신!!! </div><br>
         <div class="scoreandbar">
             <img src="{% static 'image/A+.png' %}" class="grade_img"><br>
             <div class="verti"></div>
@@ -169,30 +174,66 @@
     
     </div>
         <div class="comment">
-            Type. <br>
-            -새내기라면 사전조사가 아주 철저한 것이.... <br>
+            &nbsp;📌Type. <br>
+            이 시대의 담대한 지성... 바로 당신👍<br>
+            ◾새내기라면 사전조사가 아주 철저한 것이.... <br>
             팀플할때 꼭 자료조사 역할을 맡으면 본인의 역량을 200% 발휘할 수 있겠네요~<br>
-            -고학년이라면 학교생활을 정말 열심히 하셨군요!😉<br>
+            ◾고학년이라면 학교생활을 정말 열심히 하셨군요!😉<br>
             분명 교수님께도 관심과 사랑을 듬뿍 받아 수업에서도 A+을 쉽게 받을 수 있을거에요.<br>
             하지만 과도한 관심으로 어느새 대학원생까지 된 본인의 모습을 발견할지도 모른다는,,,,,,, (총총)<br>
         </div>
         <div class="comment">
            💡Tip1) 우리 부산대를 몹씌 사랑한 그대들에게는 기똥찬 핫플을 알려주겠노라!<br>
-            부산대에는 학교안에 막걸리 집이 있다?!? TRUE!! <br>
-            공강시간 숲속 좋은공기 마시며 파전에 칼국수에~ 맥걸릐까지 동동동동 띄우면 금상첨화!(크으-☆)<br>
+            부산대에는 학교안에 막걸리 집이 있다?!? ==TRUE!! <br>
+            공강시간 숲속 좋은 공기 마시며 파전에 칼국수에~ 맥걸릐까지 동동동동 띄우면 금상첨화!(크으-☆)<br>
             한잔만 마시려다 눈떠보니 다음 수업 끝나있어도 난 모름(●ˇ∀ˇ●)
         </div>
         <div class="comment">
             💡Tip2) 입학하고 눈떠보니 졸업이더라...<br>
             n년 뒤면 졸업인데, 설마 빼먹은 과목은 없겠지??<br>
-            학생지원시스템-졸업-학부졸업안내-졸업예정정보<br>
-            각 과별 졸업 요건과 잔여 학점을 꼼꼼히 체크하도록 하자!
+            [학생지원시스템-졸업-학부졸업안내-졸업예정정보]<br>
+            각 과별 졸업 요건과 잔여 학점을 꼼꼼히 체크하도록 하자!✔✔
         </div>
         <img src="{% static 'image/에이플.png' %}" class="fun_img"><br>
 
         {% endif %}
 
     <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재응시</button></a></div>
-</div>
 
+           <script>
+            Kakao.init('acac15252671e4f38776ed3982240d40');
+            function sendLinkKakao(){
+                Kakao.Link.sendDefault({
+                    objectType: 'feed',
+                    content: {
+                        title: '{{ user.score }}점',
+                        description: '본격! 2021 부산대에서 살아남기- 올해 나의 학점은?',
+                        imageUrl: 'http://3.35.206.106/media/%EC%82%B0%EC%A7%80%EB%8B%88_xqe00jE.JPG',
+                        link: {
+                        mobileWebUrl: 'http://3.35.206.106',
+                        webUrl: 'http://3.35.206.106'
+                        }
+                    },
+                    buttons: [       
+                        {
+                        title: '링크 열기',
+                        link: {
+                            mobileWebUrl: 'http://3.35.206.106',
+                            webUrl: 'http://3.35.206.106'
+                        }
+                        }
+                    ]
+                }); 
+            };
+        </script>
+    
+    <span class="sociallink ml-1">
+        <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유">
+            <img src="{% static 'image/kakaobtn.png' %}" width=36 alt="Kakaotalk"><br>
+            카카오톡으로 공유하기
+        </a>
+    </span>
+
+</div>
+    
 {% endblock %}
