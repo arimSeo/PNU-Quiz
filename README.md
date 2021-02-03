@@ -1,7 +1,7 @@
 # PNU-Quiz
 ### 부산대학교 탐구영역 퀴즈 빠밤! (2021 신입생 환영)
 #### 🔗 Quiz link : &nbsp; <span style="color:red">Comming soon..</span>
-
+ ※모바일로 보는 것을 추천드립니다.
 
 <img src="https://user-images.githubusercontent.com/64953591/105662530-4a453900-5f13-11eb-8adb-74cd20f7f508.JPG"  width="200" height="150">  <img src="https://user-images.githubusercontent.com/64953591/105662634-8aa4b700-5f13-11eb-899b-abefb93aa931.JPG" width="120" height="200" >
 ------------------  
