@@ -283,11 +283,13 @@
         margin-top:-1%;
     }
     #score_bar, #score_bar2 {
-        /* height: 20px; */
+        height: 15px;
         border-radius: 5px;
         margin: 7% 0% 1% 0%;
-        padding: 4% 0 -2% 10%;
+        padding: 1% 0 3% -2%;
         text-align: left;
+        word-break: keep-all;
+        /* font-size: 0.05rem; */
     }
 
     .score{
