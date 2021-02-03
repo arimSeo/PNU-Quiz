@@ -24,7 +24,7 @@ $(document).ready(function(){
     
     setTimeout(function(){
         var first_width = 0;
-        var id = setInterval(frame, 50);
+        var id = setInterval(frame, 20);
         function frame() {
             if (first_width >= `${average_score_percent}`) {
                 clearInterval(id);
@@ -38,7 +38,7 @@ $(document).ready(function(){
             }, 1500);
         }
         var first_width2 = 0.01;
-        var id2 = setInterval(frame2, 50);
+        var id2 = setInterval(frame2, 25);
         function frame2() {
             if (first_width2 >= `${user_score_percent}`) {
                 myscore.style.width = first_width2 + "%";
