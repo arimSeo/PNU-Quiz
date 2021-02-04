@@ -23,7 +23,7 @@ def quiz(request,pk):
         # user.save()    
         if request.POST['answer'] == aans.ans[num-2]:    #문제 index 0(1번답) ~
             user.score += 1
-        user.save()     
+        user.save()
 
         if num > 10  :     #4문제 기준-> 10문제:10으로 고치기
             return redirect("result", pk)

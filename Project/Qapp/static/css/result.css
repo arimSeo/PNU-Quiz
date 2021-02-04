@@ -183,7 +183,7 @@
 
 .btn{
     text-align: center;
-    margin:0% 0 3% 2%;
+    margin:1% 0 3% 2%;
     display:inline-block;
     width:10%;
 }
@@ -200,6 +200,10 @@
     font-weight: bold;
     cursor: pointer;
    
+}
+
+.btns{
+    text-align: center;
 }
 
 .gong{
@@ -354,6 +358,10 @@
         cursor: pointer;
         padding: 1.2% 4% 1.2% 4%;
     } */
+
+    .btn{
+        width: 23%;
+    }
     #re_btn{
         border-radius: 5px;
         border: 0px solid #c9c6c6;
@@ -362,10 +370,10 @@
         margin-bottom: 1%;
         /* background-color: #DEDEDE; */
         text-align: center;
-        font-size: 0.9rem;
+        font-size: 0.93rem;
         font-weight: bold;
         cursor: pointer;
-       
+        display: inline-block;
     }
 
     .gong{
@@ -375,5 +383,20 @@
         font-size: 0.9rem;
         font-weight: bold;
         cursor: pointer;
+        display: inline-block;
+    }
+
+    #kakao-link-btn{
+        margin-right: 0% !important;
+    }
+
+    .kakaimg{
+        margin-bottom: -1.2% !important;
+        width: 20px;
+        height: 20px;
+    }
+
+    .sociallink ml-1{
+        margin-left: 30% !important;
     }
 }

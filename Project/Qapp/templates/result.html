@@ -226,13 +226,14 @@
                 }); 
             };
         </script>
+    <div class="btns">
     <span class="sociallink ml-1">
-        <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유" style="text-decoration:none; color:black; margin-left:39%; @media (max-width: 900px){margin-left:10%; }">
-            <img src="{% static 'image/kakao.png' %}" width="26px" alt="Kakaotalk" style="margin-top:2%; "> <span class="gong">공유하기</span>
+        <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유" style="text-decoration:none; color:black; margin-left: 1%;">
+            <img src="{% static 'image/kakao.png' %}" class="kakaimg" width="26px" alt="Kakaotalk" style="margin-bottom:-0.3%;"> <span class="gong">공유하기</span>
         </a>
     </span>
     <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">📖 재응시</button></a></div>
-
+    </div>
 </div>
     
 {% endblock %}
