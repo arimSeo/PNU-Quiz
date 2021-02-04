@@ -137,11 +137,6 @@
     margin-top : 2%;
 }
 
-/* .verti{
-    margin:-24% 0 0% 50%;
-    height:300px;
-    border-left: 2px solid rgba(46, 42, 42, 0.164);
-} */
 .verti{
     margin:-26% 0 0% 50%;
     height:220px;
@@ -289,12 +284,12 @@
         font-size: 0.8rem;
         /* margin: 0 auto; */
         margin-left: 40%;
-        margin-top:-1%;
+        margin-top:2%;
     }
     #score_bar, #score_bar2 {
         height: 15px;
         border-radius: 5px;
-        margin: 7% 0% 1% 0%;
+        margin: 15% 0% -6% 0%;
         padding: 1% 0 3% -2%;
         text-align: left;
         word-break: keep-all;
@@ -349,15 +344,6 @@
         /* padding:1% 2% 1% 2%; */
         display:block;
     }
-
-    /* #re_btn{
-        border-radius: 5px;
-        margin:2% 0 4% 0;
-        text-align: center;
-        font-size: 0.9rem;
-        cursor: pointer;
-        padding: 1.2% 4% 1.2% 4%;
-    } */
 
     .btn{
         width: 23%;
