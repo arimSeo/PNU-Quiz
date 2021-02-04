@@ -227,45 +227,11 @@
         </script>
     <span class="sociallink ml-1">
         <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유">
-            <img src="{% static 'image/kakaobtn.png' %}" width=36 alt="Kakaotalk"><br>
+            <img src="{% static 'image/kakao.png' %}" width=36 alt="Kakaotalk"><br>
             카카오톡으로 공유하기
         </a>
     </span>
     <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재응시</button></a></div>
-
-           <script>
-            Kakao.init('acac15252671e4f38776ed3982240d40');
-            function sendLinkKakao(){
-                Kakao.Link.sendDefault({
-                    objectType: 'feed',
-                    content: {
-                        title: '{{ user.score }}점',
-                        description: '본격! 2021 부산대에서 살아남기- 올해 나의 학점은?',
-                        imageUrl: 'http://3.35.206.106/media/%EC%82%B0%EC%A7%80%EB%8B%88_xqe00jE.JPG',
-                        link: {
-                        mobileWebUrl: 'http://3.35.206.106',
-                        webUrl: 'http://3.35.206.106'
-                        }
-                    },
-                    buttons: [       
-                        {
-                        title: '링크 열기',
-                        link: {
-                            mobileWebUrl: 'http://3.35.206.106',
-                            webUrl: 'http://3.35.206.106'
-                        }
-                        }
-                    ]
-                }); 
-            };
-        </script>
-    
-    <span class="sociallink ml-1">
-        <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유">
-            <img src="{% static 'image/kakaobtn.png' %}" width=36 alt="Kakaotalk"><br>
-            카카오톡으로 공유하기
-        </a>
-    </span>
 
 </div>
     
