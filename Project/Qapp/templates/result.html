@@ -3,6 +3,7 @@
 {% block title %}result{% endblock %}
 {% block extrahead %}
 {{ block.super }}
+    <link rel="shortcut icon" href="{% static 'image/pnu.jpg' %}"/>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="{% static 'result.js' %}"></script>
     <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
@@ -205,9 +206,9 @@
                 Kakao.Link.sendDefault({
                     objectType: 'feed',
                     content: {
-                        title: '나의 점수는? {{ user.score }}점',
+                        title: '부산대 "{{user.name}}"님의 점수는? 🎉{{ user.score }}점',
                         description: '본격! 2021 부산대에서 살아남기- 올해 나의 학점은?',
-                        imageUrl: 'http://3.35.206.106/media/%EC%82%B0%EC%A7%80%EB%8B%88_xqe00jE.JPG',
+                        imageUrl: 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbgI9B7%2FbtqVFCEoJkQ%2FqaZAPKNtDkPdwExyHiK6Ck%2Fimg.png',
                         link: {
                         mobileWebUrl: 'http://3.35.206.106',
                         webUrl: 'http://3.35.206.106'
@@ -226,12 +227,11 @@
             };
         </script>
     <span class="sociallink ml-1">
-        <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유">
-            <img src="{% static 'image/kakao.png' %}" width=36 alt="Kakaotalk"><br>
-            카카오톡으로 공유하기
+        <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유" style="text-decoration:none; color:black; margin-left:39%; @media (max-width: 900px){margin-left:10%; }">
+            <img src="{% static 'image/kakao.png' %}" width="26px" alt="Kakaotalk" style="margin-top:2%; "> <span class="gong">공유하기</span>
         </a>
     </span>
-    <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">재응시</button></a></div>
+    <div class="btn"><a href="{% url 'home' %}"><button id="re_btn">📖 재응시</button></a></div>
 
 </div>
     

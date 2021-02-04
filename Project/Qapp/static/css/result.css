@@ -183,28 +183,33 @@
 
 .btn{
     text-align: center;
-    margin:1% 0 2% 0;
+    margin:0% 0 3% 2%;
+    display:inline-block;
+    width:10%;
 }
 
 #re_btn{
     border-radius: 5px;
-    border: 0.5px solid #c9c6c6;
-    padding: 0.7% 2% 0.7% 2%;
-    margin-top:1%;
+    border: 0px solid #c9c6c6;
+    padding: 0.7% 2% 0.7% 1%;
+    margin-top:3%;
     margin-bottom: 1%;
-    background-color: #DEDEDE;
+    /* background-color: #DEDEDE; */
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+.gong{
+    border: 0px solid #c9c6c6;
+    padding-left:0.4%;
+    text-align: center;
+    font-size: 1.4rem;
     font-weight: bold;
     cursor: pointer;
 }
-#re_btn:hover{
-    background-color: #312f2ad0;
-    text-align: center;
-    cursor: pointer;
-    color: white;
-}
-
 
 /*  */
 
@@ -341,13 +346,34 @@
         display:block;
     }
 
-    #re_btn{
+    /* #re_btn{
         border-radius: 5px;
         margin:2% 0 4% 0;
         text-align: center;
         font-size: 0.9rem;
         cursor: pointer;
         padding: 1.2% 4% 1.2% 4%;
+    } */
+    #re_btn{
+        border-radius: 5px;
+        border: 0px solid #c9c6c6;
+        padding: 0.7% 2% 0.7% 1%;
+        margin-top:3%;
+        margin-bottom: 1%;
+        /* background-color: #DEDEDE; */
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: bold;
+        cursor: pointer;
+       
     }
 
+    .gong{
+        border: 0px solid #c9c6c6;
+        padding-left:0.4%;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
 }
