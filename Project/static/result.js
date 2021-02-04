@@ -1,6 +1,4 @@
-window.onload = initall;
-
-function initall() {
+$(document).ready(function () {
     $(".result_content").hide();
     setTimeout(function () {
         $(".loading").fadeOut(400);
@@ -16,17 +14,17 @@ function initall() {
     var score = document.getElementById("score_bar")
     var myscore = document.getElementById("score_bar2")
 
-    average_score_percent = average_score * 10
-    user_score_percent = user_score * 10
-    
+    average_score_percent = average_score * 11
+    user_score_percent = user_score * 11
+
     // 차오르는 효과 안 할 때
     // document.getElementById("content_bar").style.width = `${average_score_percent}%`;
     // document.getElementById("content_bar2").style.width = `${user_score_percent}%`;
 
-    
-    setTimeout(function(){
+
+    setTimeout(function () {
         var first_width = 0;
-        var id = setInterval(frame, 50);
+        var id = setInterval(frame, 20);
         function frame() {
             if (first_width >= `${average_score_percent}`) {
                 clearInterval(id);
@@ -34,13 +32,13 @@ function initall() {
                 first_width++;
                 score.style.width = first_width + "%";
             }
-            setTimeout(function(){
+            setTimeout(function () {
                 score.innerHTML = "평균 학점";
-                score.style.fontSize="0.7rem"
+                score.style.fontSize = "0.5rem"
             }, 1500);
         }
         var first_width2 = 0.01;
-        var id2 = setInterval(frame2, 50);
+        var id2 = setInterval(frame2, 25);
         function frame2() {
             if (first_width2 >= `${user_score_percent}`) {
                 myscore.style.width = first_width2 + "%";
@@ -49,11 +47,11 @@ function initall() {
                 first_width2++;
                 myscore.style.width = first_width2 + "%";
                 // myscore.innerHTML = first_width+"%";
-                setTimeout(function(){
+                setTimeout(function () {
                     myscore.innerHTML = "나의 학점";
-                    myscore.style.fontSize="0.7rem"
+                    myscore.style.fontSize = "0.5rem"
                 }, 2000);
             }
         }
-    },2900)
-};
+    }, 2900)
+});

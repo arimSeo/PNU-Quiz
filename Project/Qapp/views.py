@@ -25,7 +25,7 @@ def quiz(request,pk):
             user.score += 1
         user.save()     
 
-        if num > 10:     #4문제 기준-> 10문제:10으로 고치기
+        if num > 3  :     #4문제 기준-> 10문제:10으로 고치기
             return redirect("result", pk)
         
     quiz = get_object_or_404(Question, id=num)      #id값을 문제번호num로
