@@ -34,7 +34,7 @@ $(document).ready(function () {
             }
             setTimeout(function () {
                 score.innerHTML = "평균 학점";
-                score.style.fontSize = "0.5rem"
+                score.style.fontSize = "0.55rem"
             }, 1500);
         }
         var first_width2 = 0.01;
@@ -49,7 +49,7 @@ $(document).ready(function () {
                 // myscore.innerHTML = first_width+"%";
                 setTimeout(function () {
                     myscore.innerHTML = "나의 학점";
-                    myscore.style.fontSize = "0.5rem"
+                    myscore.style.fontSize = "0.55rem"
                 }, 2000);
             }
         }
